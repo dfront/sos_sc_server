@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/corberp/!svn/ver/1/static/admin/templates/registration
+END
+password_change_done.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/corberp/!svn/ver/1/static/admin/templates/registration/password_change_done.html
+END
+password_reset_complete.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/corberp/!svn/ver/1/static/admin/templates/registration/password_reset_complete.html
+END
+password_reset_confirm.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/corberp/!svn/ver/1/static/admin/templates/registration/password_reset_confirm.html
+END
+password_reset_form.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/corberp/!svn/ver/1/static/admin/templates/registration/password_reset_form.html
+END
+logged_out.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/corberp/!svn/ver/1/static/admin/templates/registration/logged_out.html
+END
+password_reset_done.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/corberp/!svn/ver/1/static/admin/templates/registration/password_reset_done.html
+END
+password_change_form.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/corberp/!svn/ver/1/static/admin/templates/registration/password_change_form.html
+END
+password_reset_email.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/corberp/!svn/ver/1/static/admin/templates/registration/password_reset_email.html
+END

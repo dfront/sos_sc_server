@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/corberp/!svn/ver/1/static/admin/templates/admin
+END
+change_list.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/corberp/!svn/ver/1/static/admin/templates/admin/change_list.html
+END
+template_validator.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/corberp/!svn/ver/1/static/admin/templates/admin/template_validator.html
+END
+delete_selected_confirmation.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/corberp/!svn/ver/1/static/admin/templates/admin/delete_selected_confirmation.html
+END
+filter.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/corberp/!svn/ver/1/static/admin/templates/admin/filter.html
+END
+prepopulated_fields_js.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/corberp/!svn/ver/1/static/admin/templates/admin/prepopulated_fields_js.html
+END
+index_1.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/corberp/!svn/ver/1/static/admin/templates/admin/index_1.html
+END
+object_history.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/corberp/!svn/ver/1/static/admin/templates/admin/object_history.html
+END
+search_form.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/corberp/!svn/ver/1/static/admin/templates/admin/search_form.html
+END
+pagination.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/corberp/!svn/ver/1/static/admin/templates/admin/pagination.html
+END
+base_1.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/corberp/!svn/ver/1/static/admin/templates/admin/base_1.html
+END
+base_site.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/corberp/!svn/ver/1/static/admin/templates/admin/base_site.html
+END
+actions.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/corberp/!svn/ver/1/static/admin/templates/admin/actions.html
+END
+change_list_results.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/corberp/!svn/ver/1/static/admin/templates/admin/change_list_results.html
+END
+500.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/corberp/!svn/ver/1/static/admin/templates/admin/500.html
+END
+invalid_setup.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/corberp/!svn/ver/1/static/admin/templates/admin/invalid_setup.html
+END
+app_index.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/corberp/!svn/ver/1/static/admin/templates/admin/app_index.html
+END
+404.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/corberp/!svn/ver/1/static/admin/templates/admin/404.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/corberp/!svn/ver/1/static/admin/templates/admin/index.html
+END
+change_form.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/corberp/!svn/ver/1/static/admin/templates/admin/change_form.html
+END
+login.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/corberp/!svn/ver/1/static/admin/templates/admin/login.html
+END
+delete_confirmation.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/corberp/!svn/ver/1/static/admin/templates/admin/delete_confirmation.html
+END
+base.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/corberp/!svn/ver/1/static/admin/templates/admin/base.html
+END
+submit_line.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/corberp/!svn/ver/1/static/admin/templates/admin/submit_line.html
+END
+date_hierarchy.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/corberp/!svn/ver/1/static/admin/templates/admin/date_hierarchy.html
+END
