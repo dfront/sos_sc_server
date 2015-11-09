@@ -47655,3 +47655,332 @@ Traceback (most recent call last):
   File "/var/projetos/sos_server/abrigo/views.py", line 73, in get
     "types": types
 NameError: global name 'join' is not defined
+[09/Nov/2015 02:07:46] ERROR [django.request:226] Internal Server Error: /get/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 66, in get
+    for obj in AbrigoLocation.objects.filter(abrigo__pk_in=abrigos_pk):
+  File "/usr/lib/python2.7/site-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 590, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 608, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1198, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1232, in _add_q
+    current_negated=current_negated)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1100, in build_filter
+    allow_explicit_fk=True)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1351, in setup_joins
+    names, opts, allow_many, allow_explicit_fk)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1274, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+FieldError: Cannot resolve keyword 'pk_in' into field. Choices are: abrigolocation, id, nome
+[09/Nov/2015 02:08:07] ERROR [django.request:226] Internal Server Error: /get/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 66, in get
+    for obj in AbrigoLocation.objects.filter(abrigo__pk_in=abrigos_pk):
+  File "/usr/lib/python2.7/site-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 590, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 608, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1198, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1232, in _add_q
+    current_negated=current_negated)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1100, in build_filter
+    allow_explicit_fk=True)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1351, in setup_joins
+    names, opts, allow_many, allow_explicit_fk)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1274, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+FieldError: Cannot resolve keyword 'pk_in' into field. Choices are: abrigolocation, id, nome
+[09/Nov/2015 02:08:19] ERROR [django.request:226] Internal Server Error: /get/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 66, in get
+    for obj in AbrigoLocation.objects.filter(abrigo__id_in=abrigos_pk):
+  File "/usr/lib/python2.7/site-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 590, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 608, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1198, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1232, in _add_q
+    current_negated=current_negated)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1100, in build_filter
+    allow_explicit_fk=True)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1351, in setup_joins
+    names, opts, allow_many, allow_explicit_fk)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1274, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+FieldError: Cannot resolve keyword 'pk_in' into field. Choices are: abrigolocation, id, nome
+[09/Nov/2015 02:08:28] ERROR [django.request:226] Internal Server Error: /get/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 66, in get
+    for obj in AbrigoLocation.objects.filter(abrigo__id_in=abrigos_pk):
+  File "/usr/lib/python2.7/site-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 590, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 608, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1198, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1232, in _add_q
+    current_negated=current_negated)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1100, in build_filter
+    allow_explicit_fk=True)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1351, in setup_joins
+    names, opts, allow_many, allow_explicit_fk)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1274, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+FieldError: Cannot resolve keyword 'id_in' into field. Choices are: abrigolocation, id, nome
+[09/Nov/2015 02:08:37] ERROR [django.request:226] Internal Server Error: /get/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 66, in get
+    for obj in AbrigoLocation.objects.filter(abrigo__id__in=abrigos_pk):
+  File "/usr/lib/python2.7/site-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 590, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 608, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1198, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1232, in _add_q
+    current_negated=current_negated)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1100, in build_filter
+    allow_explicit_fk=True)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1351, in setup_joins
+    names, opts, allow_many, allow_explicit_fk)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1274, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+FieldError: Cannot resolve keyword 'pk_in' into field. Choices are: abrigolocation, id, nome
+[09/Nov/2015 02:08:39] ERROR [django.request:226] Internal Server Error: /get/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 66, in get
+    for obj in AbrigoLocation.objects.filter(abrigo__id__in=abrigos_pk):
+  File "/usr/lib/python2.7/site-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 590, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 608, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1198, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1232, in _add_q
+    current_negated=current_negated)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1100, in build_filter
+    allow_explicit_fk=True)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1351, in setup_joins
+    names, opts, allow_many, allow_explicit_fk)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1274, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+FieldError: Cannot resolve keyword 'pk_in' into field. Choices are: abrigolocation, id, nome
+[09/Nov/2015 02:08:40] ERROR [django.request:226] Internal Server Error: /get/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 66, in get
+    for obj in AbrigoLocation.objects.filter(abrigo__id__in=abrigos_pk):
+  File "/usr/lib/python2.7/site-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 590, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 608, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1198, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1232, in _add_q
+    current_negated=current_negated)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1100, in build_filter
+    allow_explicit_fk=True)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1351, in setup_joins
+    names, opts, allow_many, allow_explicit_fk)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1274, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+FieldError: Cannot resolve keyword 'pk_in' into field. Choices are: abrigolocation, id, nome
+[09/Nov/2015 02:10:27] ERROR [django.request:226] Internal Server Error: /get/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 66, in get
+    for obj in AbrigoLocation.objects.filter(abrigo__id__in=abrigos_pk).distinct('abrigo'):
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 96, in __iter__
+    self._fetch_all()
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 854, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 220, in iterator
+    for row in compiler.results_iter():
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 710, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 771, in execute_sql
+    sql, params = self.as_sql()
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 103, in as_sql
+    result.append(self.connection.ops.distinct_sql(distinct_fields))
+  File "/usr/lib/python2.7/site-packages/django/db/backends/__init__.py", line 780, in distinct_sql
+    raise NotImplementedError('DISTINCT ON fields is not supported by this database backend')
+NotImplementedError: DISTINCT ON fields is not supported by this database backend
+[09/Nov/2015 02:10:36] ERROR [django.request:226] Internal Server Error: /get/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 66, in get
+    for obj in AbrigoLocation.objects.filter(abrigo__id__in=abrigos_pk).distinct('abrigo'):
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 96, in __iter__
+    self._fetch_all()
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 854, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 220, in iterator
+    for row in compiler.results_iter():
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 710, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 771, in execute_sql
+    sql, params = self.as_sql()
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 103, in as_sql
+    result.append(self.connection.ops.distinct_sql(distinct_fields))
+  File "/usr/lib/python2.7/site-packages/django/db/backends/__init__.py", line 780, in distinct_sql
+    raise NotImplementedError('DISTINCT ON fields is not supported by this database backend')
+NotImplementedError: DISTINCT ON fields is not supported by this database backend
+[09/Nov/2015 02:10:44] ERROR [django.request:226] Internal Server Error: /get/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 66, in get
+    for obj in AbrigoLocation.objects.filter(abrigo__id__in=abrigos_pk).distinct('abrigo'):
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 96, in __iter__
+    self._fetch_all()
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 854, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 220, in iterator
+    for row in compiler.results_iter():
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 710, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 771, in execute_sql
+    sql, params = self.as_sql()
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 103, in as_sql
+    result.append(self.connection.ops.distinct_sql(distinct_fields))
+  File "/usr/lib/python2.7/site-packages/django/db/backends/__init__.py", line 780, in distinct_sql
+    raise NotImplementedError('DISTINCT ON fields is not supported by this database backend')
+NotImplementedError: DISTINCT ON fields is not supported by this database backend
+[09/Nov/2015 02:11:21] ERROR [django.request:226] Internal Server Error: /get/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 66, in get
+    for obj in AbrigoLocation.objects.filter(abrigo__id__in=abrigos_pk).distinct():
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 96, in __iter__
+    self._fetch_all()
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 854, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 220, in iterator
+    for row in compiler.results_iter():
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 710, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 771, in execute_sql
+    sql, params = self.as_sql()
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 103, in as_sql
+    result.append(self.connection.ops.distinct_sql(distinct_fields))
+  File "/usr/lib/python2.7/site-packages/django/db/backends/__init__.py", line 780, in distinct_sql
+    raise NotImplementedError('DISTINCT ON fields is not supported by this database backend')
+NotImplementedError: DISTINCT ON fields is not supported by this database backend
+[09/Nov/2015 02:11:22] ERROR [django.request:226] Internal Server Error: /get/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 66, in get
+    for obj in AbrigoLocation.objects.filter(abrigo__id__in=abrigos_pk).distinct():
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 96, in __iter__
+    self._fetch_all()
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 854, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 220, in iterator
+    for row in compiler.results_iter():
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 710, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 771, in execute_sql
+    sql, params = self.as_sql()
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 103, in as_sql
+    result.append(self.connection.ops.distinct_sql(distinct_fields))
+  File "/usr/lib/python2.7/site-packages/django/db/backends/__init__.py", line 780, in distinct_sql
+    raise NotImplementedError('DISTINCT ON fields is not supported by this database backend')
+NotImplementedError: DISTINCT ON fields is not supported by this database backend
+[09/Nov/2015 02:11:24] ERROR [django.request:226] Internal Server Error: /get/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 66, in get
+    for obj in AbrigoLocation.objects.filter(abrigo__id__in=abrigos_pk).distinct():
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 96, in __iter__
+    self._fetch_all()
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 854, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 220, in iterator
+    for row in compiler.results_iter():
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 710, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 771, in execute_sql
+    sql, params = self.as_sql()
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 103, in as_sql
+    result.append(self.connection.ops.distinct_sql(distinct_fields))
+  File "/usr/lib/python2.7/site-packages/django/db/backends/__init__.py", line 780, in distinct_sql
+    raise NotImplementedError('DISTINCT ON fields is not supported by this database backend')
+NotImplementedError: DISTINCT ON fields is not supported by this database backend
+[09/Nov/2015 02:16:01] ERROR [django.request:226] Internal Server Error: /get/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 69, in get
+    for address_component in AddressComponent.objects.filter(location__pk=obj.location.pk):
+AttributeError: 'QuerySet' object has no attribute 'location'
+[09/Nov/2015 02:16:03] ERROR [django.request:226] Internal Server Error: /get/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 69, in get
+    for address_component in AddressComponent.objects.filter(location__pk=obj.location.pk):
+AttributeError: 'QuerySet' object has no attribute 'location'
+[09/Nov/2015 02:16:10] ERROR [django.request:226] Internal Server Error: /get/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 69, in get
+    for address_component in AddressComponent.objects.filter(location__pk=obj.location.pk):
+AttributeError: 'QuerySet' object has no attribute 'location'
+[09/Nov/2015 02:16:33] ERROR [django.request:226] Internal Server Error: /get/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 69, in get
+    for address_component in AddressComponent.objects.filter(location__pk=obj.location.pk):
+AttributeError: 'QuerySet' object has no attribute 'location'
+[09/Nov/2015 02:16:47] ERROR [django.request:226] Internal Server Error: /get/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 69, in get
+    for address_component in AddressComponent.objects.filter(location__pk=obj.location.pk):
+AttributeError: 'QuerySet' object has no attribute 'location'
+[09/Nov/2015 02:16:52] ERROR [django.request:226] Internal Server Error: /get/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 69, in get
+    for address_component in AddressComponent.objects.filter(location__pk=obj.location.pk):
+AttributeError: 'QuerySet' object has no attribute 'location'
