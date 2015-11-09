@@ -113,5 +113,5 @@ def get(request):
                }
            arr.append(objJson)              
     
-    return HttpResponse("["+json.dumps(arr).replace("'","\"")+"]")
+    return HttpResponse(json.dumps(arr).replace("'","\""))
   
