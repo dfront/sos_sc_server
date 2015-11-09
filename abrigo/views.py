@@ -2,88 +2,116 @@ from django.shortcuts import render
 from abrigo.models import *
 from django.http import HttpResponse
 
-def getlocation(request,slug):
+def getlocation(request,place_id):
     
-    obj=AbrigoLocation.objects.filter(location__id=slug)[0]
+    obj=AbrigoLocation.objects.filter(location__place_id=place_id)[0]
+    addresses_components = [] 
+    for address_component in AddressComponent.objects.filter(location__pk=obj.location.pk):
+        types=[]
+        for t in address_component.types.all():
+            types.append(t.name.encode("utf-8"))
+        addresses_components.append({
+                "long_name": address_component.long_name,
+                "short_name": address_component.short_name,                
+                "types":types
+
+                }
+            )
+ 
     objJson = {
-                "address_components": [
-                    {
-                        "long_name": str(obj.location.street_number),
-                        "short_name": str(obj.location.street_number),
-                        "types": [
-                            "street_number"
-                        ]
+        "address_components": addresses_components,
+        "formatted_address": obj.location.formatted_address,
+        "geometry": {
+            "location": {
+                "lat": obj.location.lat,
+                "lng": obj.location.lng
+                },
+            "location_type": "ROOFTOP",
+            "viewport": {
+                "northeast": {
+                    "lat": obj.location.viewport_northeast_lat,
+                    "lng": obj.location.viewport_northeast_lng
                     },
-                    {
-                        "long_name": str(obj.location.address_1),
-                        "short_name": str(obj.location.address_1),
-                        "types": [
-                            "route"
-                        ]
-                    },
-                    {
-                        "long_name":  str(obj.location.address_2),
-                        "short_name": str(obj.location.address_2),
-                        "types": [
-                            "locality",
-                            "political"
-                        ]
-                    },
-                    {
-                        "long_name": str(obj.location.address_3),
-                        "short_name": str(obj.location.address_3),
-                        "types": [
-                            "administrative_area_level_2",
-                            "political"
-                        ]
-                    },
-                    {
-                        "long_name": str(obj.location.city),
-                        "short_name": str(obj.location.city),
-                        "types": [
-                            "administrative_area_level_1",
-                            "political"
-                        ]
-                    },
-                    {
-                        "long_name": str(obj.location.state),
-                        "short_name": str(obj.location.state_short_name),
-                        "types": [
-                            "country",
-                            "political"
-                        ]
-                    },
-                    {
-                        "long_name": str(obj.location.postcode),
-                        "short_name": str(obj.location.postcode),
-                        "types": [
-                            "postal_code"
-                        ]
-                    }
-                ],
-                "formatted_address": str(obj.location.address_1),
-                "geometry": {
-                    "location": {
-                        "lat": obj.location.latitude,
-                        "lng": obj.location.longitude
-                    },
-                    "location_type": "ROOFTOP",
-                    "viewport": {
-                        "northeast": {
-                            "lat": 0,
-                            "lng": 0
-                        },
-                        "southwest": {
-                            "lat": 0,
-                            "lng": 0
-                        }
+                "southwest": {
+                    "lat": obj.location.viewport_southwest_lat,
+                    "lng": obj.location.viewport_southwest_lng
                     }
                 },
-                "place_id": str(obj.location.pk),
-                "types": [
-                    "street_address"
-                ]
-            }
-    return HttpResponse("["+json.dumps(objJson)+"]")
+            "bounds": {
+                "northeast": {
+                    "lat": obj.location.bound_northeast_lat,
+                    "lng": obj.location.bound_northeast_lng
+                    },
+                "southwest": {
+                    "lat": obj.location.bound_southwest_lat,
+                    "lng": obj.location.bound_southwest_lng
+                    }
+                }
+            },
+        "place_id": str(obj.location.place_id),
+        "types": [
+            "street_address"
+            ]
+        }
+   
 
-# Create your views here.
+    return HttpResponse("["+json.dumps(objJson).replace("'","\"")+"]")
+  
+
+
+
+def get(request):    
+    arr=[]
+    for obj in AbrigoLocation.objects.all():       
+       addresses_components =[] 
+       for address_component in AddressComponent.objects.filter(location__pk=obj.location.pk):
+           types=[]
+           for t in address_component.types.all():
+               types.append(t.name.encode("utf-8"))
+           addresses_components.append(
+                {
+                    "long_name": address_component.long_name.encode("utf-8"),
+                    "short_name": address_component.short_name.encode("utf-8"),
+                    "types": types
+                    }
+                )
+
+           objJson = {
+               "address_components": addresses_components,
+               "formatted_address": obj.location.formatted_address,
+               "geometry": {
+                   "location": {
+                       "lat": obj.location.lat,
+                       "lng": obj.location.lng
+                       },
+                   "location_type": "ROOFTOP",
+                   "viewport": {
+                       "northeast": {
+                           "lat": obj.location.viewport_northeast_lat,
+                           "lng": obj.location.viewport_northeast_lng
+                           },
+                       "southwest": {
+                           "lat": obj.location.viewport_southwest_lat,
+                           "lng": obj.location.viewport_southwest_lng
+                           }
+                       },
+                   "bounds": {
+                       "northeast": {
+                           "lat": obj.location.bound_northeast_lat,
+                           "lng": obj.location.bound_northeast_lng
+                           },
+                       "southwest": {
+                           "lat": obj.location.bound_southwest_lat,
+                           "lng": obj.location.bound_southwest_lng
+                           }
+                       }
+                   },
+               "place_id": str(obj.location.place_id),
+               "types": [
+                   "street_address"
+                   ]
+               }
+           arr.append(objJson)              
+    
+    return HttpResponse("["+json.dumps(arr).replace("'","\"")+"]")
+  

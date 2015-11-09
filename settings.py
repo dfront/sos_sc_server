@@ -34,10 +34,7 @@ MIDDLEWARE_CLASSES = (
     'staticflatpages.middleware.StaticFlatpageFallbackMiddleware'
 )
 
-
-
 TEMPLATE_CONTEXT_PROCESSORS = (
-
     'django.contrib.auth.context_processors.auth',
     "django.core.context_processors.debug",
     "django.core.context_processors.i18n",
@@ -47,7 +44,6 @@ TEMPLATE_CONTEXT_PROCESSORS = (
     #'main.custom_context_processors.template_base_var',
     #'pessoa.custom_context_processors.template_base_var',
     'django.core.context_processors.request',
-
     #'social_auth.context_processors.social_auth_by_name_backends',
     #'social_auth.context_processors.social_auth_backends',
     #'social_auth.context_processors.social_auth_by_type_backends',
@@ -61,7 +57,8 @@ TEMPLATE_LOADERS = (
 
 TEMPLATE_DIRS = (
     os.path.join(PROJECT_ROOT_PATH,'static/templates/'),
-    os.path.join(PROJECT_ROOT_PATH,'static/admin/'),
+    os.path.join(PROJECT_ROOT_PATH,'static/admin/')
+     
 )
 
 
@@ -77,7 +74,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django.contrib.sitemaps',  
     'django.contrib.flatpages',
-     'crispy_forms',
+    'crispy_forms',
     'abrigo'   
 )
 

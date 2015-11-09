@@ -11,88 +11,52 @@ def makeJSON(modeladmin,request,queryset):
     handle1=open('/var/projetos/sos_server/static/json/abrigos_template.json','w+')
     arr=[]
     for obj in AbrigoLocation.objects.filter(abrigo_id__in=selected):       
-        objJson = {
-                "address_components": [
-                    {
-                        "long_name": str(obj.location.street_number),
-                        "short_name": str(obj.location.street_number),
-                        "types": [
-                            "street_number"
-                        ]
-                    },
-                    {
-                        "long_name": str(obj.location.address_1),
-                        "short_name": str(obj.location.address_1),
-                        "types": [
-                            "route"
-                        ]
-                    },
-                    {
-                        "long_name":  str(obj.location.address_2),
-                        "short_name": str(obj.location.address_2),
-                        "types": [
-                            "locality",
-                            "political"
-                        ]
-                    },
-                    {
-                        "long_name": str(obj.location.address_3),
-                        "short_name": str(obj.location.address_3),
-                        "types": [
-                            "administrative_area_level_2",
-                            "political"
-                        ]
-                    },
-                    {
-                        "long_name": str(obj.location.city),
-                        "short_name": str(obj.location.city),
-                        "types": [
-                            "administrative_area_level_1",
-                            "political"
-                        ]
-                    },
-                    {
-                        "long_name": str(obj.location.state),
-                        "short_name": str(obj.location.state_short_name),
-                        "types": [
-                            "country",
-                            "political"
-                        ]
-                    },
-                    {
-                        "long_name": str(obj.location.postcode),
-                        "short_name": str(obj.location.postcode),
-                        "types": [
-                            "postal_code"
-                        ]
+        addresses_components =[] 
+        for address_component in AddressComponent.objects.filter(location__pk=obj.location.pk):
+            addresses_components.append(
+                {
+                    "long_name": address_component.long_name,
+                    "short_name": address_component.short_name,
+                    "types": address_component.types
                     }
-                ],
-                "formatted_address": str(obj.location.address_1),
+                )
+
+        objJson = {
+                "address_components": addresses_components,
+                "formatted_address": obj.location.formatted_address,
                 "geometry": {
                     "location": {
-                        "lat": obj.location.latitude,
-                        "lng": obj.location.longitude
+                        "lat": obj.location.lat,
+                        "lng": obj.location.lng
                     },
                     "location_type": "ROOFTOP",
                     "viewport": {
                         "northeast": {
-                            "lat": 0,
-                            "lng": 0
+                            "lat": obj.location.viewport_northeast_lat,
+                            "lng": obj.location.viewport_northeast_lng
                         },
                         "southwest": {
-                            "lat": 0,
-                            "lng": 0
+                            "lat": obj.location.viewport_southwest_lat,
+                            "lng": obj.location.viewport_southwest_lng
+                        }
+                    },
+                    "bounds": {
+                        "northeast": {
+                            "lat": obj.location.bound_northeast_lat,
+                            "lng": obj.location.bound_northeast_lng
+                        },
+                        "southwest": {
+                            "lat": obj.location.bound_southwest_lat,
+                            "lng": obj.location.bound_southwest_lng
                         }
                     }
                 },
-                "place_id": str(obj.location.pk),
+                "place_id": str(obj.location.place_id),
                 "types": [
                     "street_address"
                 ]
             }
         arr.append(objJson)
-        
-       
     
     handle1.write("["+str(','.join(map(str,arr))).replace("'","\"")+"]")
     handle1.close()
@@ -101,14 +65,32 @@ makeJSON.short_description = "Gerar JSON"
 
 
 
-class AbrigoLocationInline(admin.TabularInline):
-    model = AbrigoLocation
-    extra = 1
+class AddressComponentAdmin(admin.ModelAdmin):
+    def types(self):        
+        return (self.types.all().values_list('name'))
+    list_display = ('pk','short_name','long_name','location',types) 
+    
+class AbrigoInline(admin.TabularInline):
+    model = Abrigo
+
+class LocationInline(admin.TabularInline):
+    model= AbrigoLocation
 
 class AbrigoAdmin(admin.ModelAdmin):
     list_display = ('pk','nome')
-    inlines = [AbrigoLocationInline,]
     actions = [makeJSON]
+    inlines = [LocationInline]
+  
+
+class AddressComponentInline(admin.TabularInline):
+    model=AddressComponent
+
+class LocationAdmin(admin.ModelAdmin):
+    inlines = [AddressComponentInline]
+   
+
 
 admin.site.register(Abrigo,AbrigoAdmin)
-admin.site.register(Location)
+admin.site.register(Location,LocationAdmin)
+admin.site.register(AddressComponent,AddressComponentAdmin)
+admin.site.register(AddressComponentType)
