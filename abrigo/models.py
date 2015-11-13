@@ -5,6 +5,14 @@ from django.db.models import signals
 
 class Abrigo(models.Model):
     nome = models.CharField(max_length=255)
+
+
+    def getLocationsByCountry(self,country_short_name):        
+        return AddressComponent.objects.filter(short_name=country_short_name).values_list('locations')
+   
+    def locations(self): 
+        return AbrigoLocation.objects.filter(abrigo=self).values('locations')
+
     def __unicode__(self):
         return self.nome
 
@@ -50,10 +58,12 @@ class Location(models.Model):
             self.location_type = geo['results'][0]['geometry']['location_type']
             super(Location,self).save()
 
+
+    def addresses_components(self):
+        return AddressComponent.objects.filter(location=self)
+
     def __unicode__(self):
         return self.formatted_address
-
-  
 
 
 class AddressComponentType(models.Model):
@@ -77,6 +87,7 @@ class AbrigoLocation(models.Model):
     abrigo = models.ForeignKey(Abrigo)
     location = models.ForeignKey(Location)
 
+    
   
 
 
@@ -84,13 +95,13 @@ def post_save_location(sender,instance, **kwargs):
     geo = json.loads(getLatLon("%s" % (instance.formatted_address.encode("utf-8"))))
     if geo['status'] == "OK":           
         address_components = geo['results'][0]['address_components']
-        
+    
         for ad in address_components:
             types=[]          
-            
+        
             long_name=ad["long_name"]
             short_name=ad["short_name"]
-            
+        
             for type_ in ad["types"]:
                 obj, created=AddressComponentType.objects.get_or_create(name=type_,defaults={"name":type_})
                 types.append(obj)                    
@@ -98,9 +109,6 @@ def post_save_location(sender,instance, **kwargs):
                 
             ad,created=AddressComponent.objects.get_or_create(location=instance,long_name=long_name,short_name=short_name,defaults={"long_name":long_name,"short_name":short_name,"location":instance})
             ad.types=types
-            ad.save()
-        
+            ad.save()       
 
-        
-        
 signals.post_save.connect(post_save_location, sender=Location)

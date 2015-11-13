@@ -47984,3 +47984,476 @@ Traceback (most recent call last):
   File "/var/projetos/sos_server/abrigo/views.py", line 69, in get
     for address_component in AddressComponent.objects.filter(location__pk=obj.location.pk):
 AttributeError: 'QuerySet' object has no attribute 'location'
+[10/Nov/2015 00:18:12] ERROR [django.request:226] Internal Server Error: /get/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 80, in get
+    "abrigo":obj.abrigo.name,
+AttributeError: 'Abrigo' object has no attribute 'name'
+[10/Nov/2015 00:18:20] ERROR [django.request:226] Internal Server Error: /get/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 80, in get
+    "abrigo":obj.abrigo.name,
+AttributeError: 'Abrigo' object has no attribute 'name'
+[10/Nov/2015 00:18:26] ERROR [django.request:226] Internal Server Error: /get/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 80, in get
+    "abrigo":obj.abrigo.name,
+AttributeError: 'Abrigo' object has no attribute 'name'
+[10/Nov/2015 00:18:51] ERROR [django.request:226] Internal Server Error: /get/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 80, in get
+    "abrigo":obj.abrigo.name,
+AttributeError: 'Abrigo' object has no attribute 'name'
+[11/Nov/2015 00:42:45] ERROR [django.request:226] Internal Server Error: /get/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 101, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/lib/python2.7/site-packages/django/core/urlresolvers.py", line 320, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/lib/python2.7/site-packages/django/core/urlresolvers.py", line 222, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/lib/python2.7/site-packages/django/core/urlresolvers.py", line 229, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/lib/python2.7/site-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/lib/python2.7/site-packages/django/core/urlresolvers.py", line 96, in get_callable
+    mod = import_module(mod_name)
+  File "/usr/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/var/projetos/sos_server/abrigo/views.py", line 65
+    abrigo in Abrigo.objects.all():
+                                  ^
+SyntaxError: invalid syntax
+[11/Nov/2015 00:42:48] ERROR [django.request:226] Internal Server Error: /get/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 101, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/lib/python2.7/site-packages/django/core/urlresolvers.py", line 320, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/lib/python2.7/site-packages/django/core/urlresolvers.py", line 222, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/lib/python2.7/site-packages/django/core/urlresolvers.py", line 229, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/lib/python2.7/site-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/lib/python2.7/site-packages/django/core/urlresolvers.py", line 96, in get_callable
+    mod = import_module(mod_name)
+  File "/usr/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/var/projetos/sos_server/abrigo/views.py", line 65
+    abrigo in Abrigo.objects.all():
+                                  ^
+SyntaxError: invalid syntax
+[11/Nov/2015 00:43:00] ERROR [django.request:226] Internal Server Error: /get/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 101, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/lib/python2.7/site-packages/django/core/urlresolvers.py", line 320, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/lib/python2.7/site-packages/django/core/urlresolvers.py", line 222, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/lib/python2.7/site-packages/django/core/urlresolvers.py", line 229, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/lib/python2.7/site-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/lib/python2.7/site-packages/django/core/urlresolvers.py", line 96, in get_callable
+    mod = import_module(mod_name)
+  File "/usr/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/var/projetos/sos_server/abrigo/views.py", line 65
+    abrigo in Abrigo.objects.all():
+                                  ^
+SyntaxError: invalid syntax
+[11/Nov/2015 00:43:50] ERROR [django.request:226] Internal Server Error: /get
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 90, in get_response
+    response = middleware_method(request)
+  File "/usr/lib/python2.7/site-packages/django/middleware/common.py", line 72, in process_request
+    urlresolvers.is_valid_path("%s/" % request.path_info, urlconf)):
+  File "/usr/lib/python2.7/site-packages/django/core/urlresolvers.py", line 573, in is_valid_path
+    resolve(path, urlconf)
+  File "/usr/lib/python2.7/site-packages/django/core/urlresolvers.py", line 453, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/usr/lib/python2.7/site-packages/django/core/urlresolvers.py", line 320, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/lib/python2.7/site-packages/django/core/urlresolvers.py", line 222, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/lib/python2.7/site-packages/django/core/urlresolvers.py", line 229, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/lib/python2.7/site-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/lib/python2.7/site-packages/django/core/urlresolvers.py", line 96, in get_callable
+    mod = import_module(mod_name)
+  File "/usr/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/var/projetos/sos_server/abrigo/views.py", line 65
+    abrigo in Abrigo.objects.all():
+                                  ^
+SyntaxError: invalid syntax
+[13/Nov/2015 00:59:07] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: shelters() takes exactly 2 arguments (1 given)
+[13/Nov/2015 01:00:03] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: shelters() takes exactly 2 arguments (1 given)
+[13/Nov/2015 01:00:18] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: shelters() takes exactly 2 arguments (1 given)
+[13/Nov/2015 01:00:35] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: shelters() takes exactly 2 arguments (1 given)
+[13/Nov/2015 01:01:03] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: shelters() takes exactly 2 arguments (1 given)
+[13/Nov/2015 01:01:51] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: shelters() takes exactly 2 arguments (1 given)
+[13/Nov/2015 01:02:34] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: shelters() takes exactly 2 arguments (1 given)
+[13/Nov/2015 01:02:54] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: shelters() takes exactly 2 arguments (1 given)
+[13/Nov/2015 01:03:06] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: shelters() takes exactly 2 arguments (1 given)
+[13/Nov/2015 01:03:17] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: shelters() takes exactly 2 arguments (1 given)
+[13/Nov/2015 01:03:27] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 101, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/lib/python2.7/site-packages/django/core/urlresolvers.py", line 320, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/lib/python2.7/site-packages/django/core/urlresolvers.py", line 222, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/lib/python2.7/site-packages/django/core/urlresolvers.py", line 229, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/lib/python2.7/site-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/lib/python2.7/site-packages/django/core/urlresolvers.py", line 117, in get_callable
+    (lookup_view, mod_name))
+ViewDoesNotExist: Could not import abrigo.views.shelters. View does not exist in module abrigo.views.
+[13/Nov/2015 01:04:10] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: shelters() takes exactly 2 arguments (1 given)
+[13/Nov/2015 01:04:11] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: shelters() takes exactly 2 arguments (1 given)
+[13/Nov/2015 01:04:13] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: shelters() takes exactly 2 arguments (1 given)
+[13/Nov/2015 01:04:14] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: shelters() takes exactly 2 arguments (1 given)
+[13/Nov/2015 01:04:15] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: shelters() takes exactly 2 arguments (1 given)
+[13/Nov/2015 01:04:17] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: shelters() takes exactly 2 arguments (1 given)
+[13/Nov/2015 01:04:18] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: shelters() takes exactly 2 arguments (1 given)
+[13/Nov/2015 01:04:20] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: shelters() takes exactly 2 arguments (1 given)
+[13/Nov/2015 01:52:16] ERROR [django.request:226] Internal Server Error: /sheltersList/SC/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: shelterList() got an unexpected keyword argument 'place_id'
+[13/Nov/2015 01:52:26] ERROR [django.request:226] Internal Server Error: /sheltersList/SC/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: shelterList() got an unexpected keyword argument 'place_id'
+[13/Nov/2015 01:53:40] ERROR [django.request:226] Internal Server Error: /sheltersList/SC/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: shelterList() got an unexpected keyword argument 'place_id'
+[13/Nov/2015 01:53:55] ERROR [django.request:226] Internal Server Error: /sheltersList/SC/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 122, in shelterList
+    locations_pk = AddressComponent.objects.filter(short_name=country_short_name).values_list('locations__pk')
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 535, in values_list
+    _fields=fields)
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 849, in _clone
+    c._setup_query()
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 992, in _setup_query
+    self.query.add_fields(self.field_names, True)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1528, in add_fields
+    allow_explicit_fk=True, outer_if_first=True)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1351, in setup_joins
+    names, opts, allow_many, allow_explicit_fk)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1274, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+FieldError: Cannot resolve keyword 'locations' into field. Choices are: id, location, long_name, short_name, types
+[13/Nov/2015 01:54:35] ERROR [django.request:226] Internal Server Error: /sheltersList/SC/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 127, in shelterList
+    return HttpResponse(json.dumps(arr).replace("'","\""))
+NameError: global name 'arr' is not defined
+[13/Nov/2015 01:55:11] ERROR [django.request:226] Internal Server Error: /sheltersList/SC/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 127, in shelterList
+    
+NameError: global name 'arr' is not defined
+[13/Nov/2015 01:55:13] ERROR [django.request:226] Internal Server Error: /sheltersList/SC/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 122, in shelterList
+    arr=[]
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 535, in values_list
+    _fields=fields)
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 849, in _clone
+    c._setup_query()
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 992, in _setup_query
+    self.query.add_fields(self.field_names, True)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1528, in add_fields
+    allow_explicit_fk=True, outer_if_first=True)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1351, in setup_joins
+    names, opts, allow_many, allow_explicit_fk)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1274, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+FieldError: Cannot resolve keyword 'locations' into field. Choices are: id, location, long_name, short_name, types
+[13/Nov/2015 01:57:52] ERROR [django.request:226] Internal Server Error: /sheltersList/SP/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 122, in shelterList
+    arr=[]
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 535, in values_list
+    _fields=fields)
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 849, in _clone
+    c._setup_query()
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 992, in _setup_query
+    self.query.add_fields(self.field_names, True)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1528, in add_fields
+    allow_explicit_fk=True, outer_if_first=True)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1351, in setup_joins
+    names, opts, allow_many, allow_explicit_fk)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1274, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+FieldError: Cannot resolve keyword 'locations' into field. Choices are: id, location, long_name, short_name, types
+[13/Nov/2015 01:57:54] ERROR [django.request:226] Internal Server Error: /sheltersList/SP/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 127, in shelterList
+    
+NameError: global name 'arr' is not defined
+[13/Nov/2015 01:57:55] ERROR [django.request:226] Internal Server Error: /sheltersList/SP/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 122, in shelterList
+    arr=[]
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 535, in values_list
+    _fields=fields)
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 849, in _clone
+    c._setup_query()
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 992, in _setup_query
+    self.query.add_fields(self.field_names, True)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1528, in add_fields
+    allow_explicit_fk=True, outer_if_first=True)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1351, in setup_joins
+    names, opts, allow_many, allow_explicit_fk)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1274, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+FieldError: Cannot resolve keyword 'locations' into field. Choices are: id, location, long_name, short_name, types
+[13/Nov/2015 02:04:07] ERROR [abrigo.views:125] SP
+[13/Nov/2015 02:04:07] ERROR [abrigo.views:127] [(15L,), (16L,)]
+[13/Nov/2015 02:04:07] ERROR [abrigo.views:129] []
+[13/Nov/2015 02:14:14] ERROR [abrigo.views:125] SP
+[13/Nov/2015 02:14:14] ERROR [abrigo.views:127] [(15L,), (16L,)]
+[13/Nov/2015 02:14:14] ERROR [abrigo.views:129] []
+[13/Nov/2015 02:14:15] ERROR [abrigo.views:125] SP
+[13/Nov/2015 02:14:15] ERROR [abrigo.views:127] [(15L,), (16L,)]
+[13/Nov/2015 02:14:15] ERROR [abrigo.views:129] []
+[13/Nov/2015 02:14:38] ERROR [abrigo.views:125] SP
+[13/Nov/2015 02:14:38] ERROR [abrigo.views:127] [(15L,), (16L,)]
+[13/Nov/2015 02:14:38] ERROR [abrigo.views:129] []
+[13/Nov/2015 02:14:51] ERROR [abrigo.views:125] SP
+[13/Nov/2015 02:14:51] ERROR [abrigo.views:127] [(15L,), (16L,)]
+[13/Nov/2015 02:14:51] ERROR [abrigo.views:129] [(6L,), (5L,)]
+[13/Nov/2015 02:14:51] ERROR [abrigo.views:131] Casa da vo
+[13/Nov/2015 02:14:51] ERROR [django.request:226] Internal Server Error: /sheltersList/SP/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 132, in shelterList
+    arr.append(get_address(shelter))
+  File "/var/projetos/sos_server/abrigo/views.py", line 138, in get_address
+    for address_component in AddressComponent.objects.filter(location__pk=obj.location.pk):
+AttributeError: 'Abrigo' object has no attribute 'location'
+[13/Nov/2015 02:16:13] ERROR [abrigo.views:125] SP
+[13/Nov/2015 02:16:13] ERROR [abrigo.views:127] [(15L,), (16L,)]
+[13/Nov/2015 02:16:13] ERROR [abrigo.views:130] AbrigoLocation object
+[13/Nov/2015 02:16:13] ERROR [django.request:226] Internal Server Error: /sheltersList/SP/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 131, in shelterList
+    arr.append(get_address(shelter))
+  File "/var/projetos/sos_server/abrigo/views.py", line 141, in get_address
+    addresses_components.append({
+NameError: global name 'addresses_components' is not defined
+[13/Nov/2015 02:16:53] ERROR [abrigo.views:125] SP
+[13/Nov/2015 02:16:53] ERROR [abrigo.views:127] [(15L,), (16L,)]
+[13/Nov/2015 02:16:53] ERROR [abrigo.views:130] AbrigoLocation object
+[13/Nov/2015 02:16:53] ERROR [abrigo.views:130] AbrigoLocation object
+[13/Nov/2015 02:17:07] ERROR [abrigo.views:125] SP/Ej5SLiBBemV2ZWRvIFNvZHLDqSwgNiAtIEdvbnphZ2EsIFNhbnRvcyAtIFNQLCAxMTA1NS0wNTEsIEJyYXNpbA
+[13/Nov/2015 02:17:07] ERROR [abrigo.views:127] []
+[13/Nov/2015 02:17:12] ERROR [abrigo.views:125] Ej5SLiBBemV2ZWRvIFNvZHLDqSwgNiAtIEdvbnphZ2EsIFNhbnRvcyAtIFNQLCAxMTA1NS0wNTEsIEJyYXNpbA
+[13/Nov/2015 02:17:12] ERROR [abrigo.views:127] []
+[13/Nov/2015 02:17:27] ERROR [abrigo.views:125] SC
+[13/Nov/2015 02:17:27] ERROR [abrigo.views:127] [(14L,)]
+[13/Nov/2015 02:17:27] ERROR [abrigo.views:130] AbrigoLocation object
+[13/Nov/2015 02:18:44] ERROR [abrigo.views:125] SC
+[13/Nov/2015 02:18:44] ERROR [abrigo.views:127] [(14L,)]
+[13/Nov/2015 02:18:44] ERROR [abrigo.views:130] AbrigoLocation object
+[13/Nov/2015 03:22:46] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 69, in shelters
+    obj= AbrigoLocation.objects.get(abrigo=abrigo)
+NameError: global name 'abrigo' is not defined
+[13/Nov/2015 03:22:46] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 69, in shelters
+    obj= AbrigoLocation.objects.get(abrigo=abrigo)
+NameError: global name 'abrigo' is not defined
+[13/Nov/2015 03:24:43] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 71, in shelters
+    obj= AbrigoLocation.objects.get(abrigo=abrigoLocation.abrigo)
+NameError: global name 'abrigoLocation' is not defined
+[13/Nov/2015 03:25:09] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 71, in shelters
+    obj= AbrigoLocation.objects.get(abrigo=abrigoLocation.abrigo)
+NameError: global name 'abrigoLocation' is not defined
+[13/Nov/2015 03:25:20] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 84, in shelters
+    "abrigo":abrigo.nome,
+NameError: global name 'abrigo' is not defined
+[13/Nov/2015 03:25:52] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 84, in shelters
+    "abrigo":abrigo.nome,
+NameError: global name 'abrigo' is not defined
+[13/Nov/2015 03:25:54] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 71, in shelters
+    obj= AbrigoLocation.objects.get(abrigo=abrigoLocation.abrigo)
+NameError: global name 'abrigoLocation' is not defined
+[13/Nov/2015 03:25:58] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 84, in shelters
+    "abrigo":abrigo.nome,
+NameError: global name 'abrigo' is not defined
+[13/Nov/2015 03:26:18] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 84, in shelters
+    "abrigo":abrigo.nome,
+NameError: global name 'abrigo' is not defined
+[13/Nov/2015 03:26:19] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 71, in shelters
+    obj= AbrigoLocation.objects.get(abrigo=abrigoLocation.abrigo)
+NameError: global name 'abrigoLocation' is not defined
+[13/Nov/2015 03:26:44] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 84, in shelters
+    "abrigo":abrigo.nome,
+NameError: global name 'abrigo' is not defined
+[13/Nov/2015 03:30:00] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 84, in shelters
+    "abrigo":abrigo.nome,
+NameError: global name 'abrigo' is not defined
+[13/Nov/2015 03:30:58] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 84, in shelters
+    "abrigo":abrigo.nome.encode("utf-8"),
+NameError: global name 'abrigo' is not defined

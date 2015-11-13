@@ -163,25 +163,10 @@ LOGGING = {
             'propagate': True,
             'level':'ERROR',
         },
-        'agenda': {
+        'abrigo': {
             'handlers': ['file'],
             'level': 'ERROR',
-        },
-       'pessoa': {
-            'handlers': ['file'],
-            'level': 'ERROR',
-        },
-        'municipios': {
-            'handlers': ['file'],
-            'level': 'ERROR',
-        },
-        'main': {
-            'handlers': ['file'],
-            'level': 'ERROR',
-        },
-        'pagina_dinamica': {
-            'handlers': ['file'],
-            'level': 'ERROR',
-        },
+        }   
+     
     }
 }
