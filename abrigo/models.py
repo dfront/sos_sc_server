@@ -59,6 +59,7 @@ class Location(models.Model):
             super(Location,self).save()
 
 
+
     def addresses_components(self):
         return AddressComponent.objects.filter(location=self)
 
@@ -87,9 +88,6 @@ class AbrigoLocation(models.Model):
     abrigo = models.ForeignKey(Abrigo)
     location = models.ForeignKey(Location)
 
-    
-  
-
 
 def post_save_location(sender,instance, **kwargs):
     geo = json.loads(getLatLon("%s" % (instance.formatted_address.encode("utf-8"))))
@@ -105,8 +103,8 @@ def post_save_location(sender,instance, **kwargs):
             for type_ in ad["types"]:
                 obj, created=AddressComponentType.objects.get_or_create(name=type_,defaults={"name":type_})
                 types.append(obj)                    
-                
-                
+        
+        
             ad,created=AddressComponent.objects.get_or_create(location=instance,long_name=long_name,short_name=short_name,defaults={"long_name":long_name,"short_name":short_name,"location":instance})
             ad.types=types
             ad.save()       

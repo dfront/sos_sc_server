@@ -48457,3 +48457,2350 @@ Traceback (most recent call last):
   File "/var/projetos/sos_server/abrigo/views.py", line 84, in shelters
     "abrigo":abrigo.nome.encode("utf-8"),
 NameError: global name 'abrigo' is not defined
+[13/Nov/2015 22:06:14] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 84, in shelters
+    "abrigo":abrigo.nome.encode("utf-8"),
+NameError: global name 'abrigo' is not defined
+[13/Nov/2015 22:11:49] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 84, in shelters
+    "abrigo":abrigo.nome.encode("utf-8"),
+NameError: global name 'abrigo' is not defined
+[13/Nov/2015 22:13:51] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 84, in shelters
+    "abrigo":abrigo.nome.encode("utf-8"),
+NameError: global name 'abrigo' is not defined
+[13/Nov/2015 23:48:41] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 84, in shelters
+    "abrigo":abrigo.nome.encode("utf-8"),
+NameError: global name 'abrigo' is not defined
+[13/Nov/2015 23:48:50] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 84, in shelters
+    "abrigo":abrigo.nome.encode("utf-8"),
+NameError: global name 'abrigo' is not defined
+[13/Nov/2015 23:49:35] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 84, in shelters
+    "abrigo":abrigo.nome.encode("utf-8"),
+NameError: global name 'abrigo' is not defined
+[13/Nov/2015 23:49:35] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 84, in shelters
+    "abrigo":abrigo.nome.encode("utf-8"),
+NameError: global name 'abrigo' is not defined
+[13/Nov/2015 23:50:19] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 84, in shelters
+    "abrigo":abrigo.nome.encode("utf-8"),
+NameError: global name 'abrigo' is not defined
+[13/Nov/2015 23:50:50] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 84, in shelters
+    "abrigo":abrigo.nome.encode("utf-8"),
+NameError: global name 'abrigo' is not defined
+[14/Nov/2015 00:04:04] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 86, in shelters
+    "abrigo": abrigo.nome.encode("utf-8"),
+NameError: global name 'abrigo' is not defined
+[14/Nov/2015 00:04:07] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 86, in shelters
+    "abrigo": abrigo.nome.encode("utf-8"),
+NameError: global name 'abrigo' is not defined
+[14/Nov/2015 00:04:49] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 86, in shelters
+    "abrigo": abrigo.nome.encode("utf-8"),
+NameError: global name 'abrigo' is not defined
+[14/Nov/2015 00:04:51] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 86, in shelters
+    "abrigo": abrigo.nome.encode("utf-8"),
+NameError: global name 'abrigo' is not defined
+[14/Nov/2015 00:04:52] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 86, in shelters
+    "abrigo": abrigo.nome.encode("utf-8"),
+NameError: global name 'abrigo' is not defined
+[14/Nov/2015 00:04:53] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 86, in shelters
+    "abrigo": abrigo.nome.encode("utf-8"),
+NameError: global name 'abrigo' is not defined
+[14/Nov/2015 00:05:01] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 86, in shelters
+    "abrigo": abrigo.nome.encode("utf-8"),
+NameError: global name 'abrigo' is not defined
+[14/Nov/2015 00:05:57] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 86, in shelters
+    "abrigo": abrigo.nome.encode("utf-8"),
+NameError: global name 'abrigo' is not defined
+[14/Nov/2015 00:06:06] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 86, in shelters
+    "abrigo": abrigo.nome.encode("utf-8"),
+NameError: global name 'abrigo' is not defined
+[14/Nov/2015 00:06:42] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 86, in shelters
+    "abrigo": abrigo.nome.encode("utf-8"),
+NameError: global name 'abrigo' is not defined
+[14/Nov/2015 00:07:07] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 86, in shelters
+    "abrigo": abrigo.nome.encode("utf-8"),
+NameError: global name 'abrigo' is not defined
+[14/Nov/2015 00:07:45] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 86, in shelters
+    "abrigo": abrigo.nome.encode("utf-8"),
+NameError: global name 'abrigo' is not defined
+[14/Nov/2015 00:08:37] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 121, in shelters
+    arr.append(objJson)
+NameError: global name 'objJson' is not defined
+[14/Nov/2015 00:08:52] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 121, in shelters
+    arr.append(objJson)
+NameError: global name 'objJson' is not defined
+[14/Nov/2015 00:10:13] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 121, in shelters
+    arr.append(objJson)
+NameError: global name 'objJson' is not defined
+[14/Nov/2015 00:10:15] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 121, in shelters
+    arr.append(objJson)
+NameError: global name 'objJson' is not defined
+[14/Nov/2015 00:10:17] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 121, in shelters
+    arr.append(objJson)
+NameError: global name 'objJson' is not defined
+[14/Nov/2015 00:10:25] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 86, in shelters
+    "abrigo": abrigo.nome.encode("utf-8"),
+NameError: global name 'abrigo' is not defined
+[14/Nov/2015 00:10:45] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 86, in shelters
+    "abrigo": abrigo.nome.encode("utf-8"),
+NameError: global name 'abrigo' is not defined
+[14/Nov/2015 00:11:00] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 86, in shelters
+    "abrigo": abrigo.nome.encode("utf-8"),
+NameError: global name 'abrigo' is not defined
+[14/Nov/2015 00:11:12] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 86, in shelters
+    #"abrigo": abrigo.nome.encode("utf-8"),
+NameError: global name 'abrigo' is not defined
+[14/Nov/2015 00:11:13] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 86, in shelters
+    #"abrigo": abrigo.nome.encode("utf-8"),
+NameError: global name 'abrigo' is not defined
+[14/Nov/2015 00:11:14] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 86, in shelters
+    #"abrigo": abrigo.nome.encode("utf-8"),
+NameError: global name 'abrigo' is not defined
+[14/Nov/2015 00:11:15] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 86, in shelters
+    #"abrigo": abrigo.nome.encode("utf-8"),
+NameError: global name 'abrigo' is not defined
+[14/Nov/2015 00:11:16] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 86, in shelters
+    #"abrigo": abrigo.nome.encode("utf-8"),
+NameError: global name 'abrigo' is not defined
+[14/Nov/2015 00:12:00] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 86, in shelters
+    "abrigo": abrigo.nome,
+NameError: global name 'abrigo' is not defined
+[14/Nov/2015 00:12:44] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 84, in shelters
+    LOGGER.error(abrigo.nome)
+NameError: global name 'abrigo' is not defined
+[14/Nov/2015 00:13:05] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 84, in shelters
+    LOGGER.error(abrigo.nome)
+NameError: global name 'abrigo' is not defined
+[14/Nov/2015 00:14:06] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 84, in shelters
+    LOGGER.error(abrigo)
+NameError: global name 'abrigo' is not defined
+[14/Nov/2015 00:15:32] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 75, in shelters
+    for address_component in AddressComponent.objects.filter(location__pk=obj.location.pk):
+NameError: global name 'obj' is not defined
+[14/Nov/2015 00:17:06] ERROR [abrigo.views:84] Casa da vo
+[14/Nov/2015 00:17:06] ERROR [abrigo.views:84] Casa santos
+[14/Nov/2015 00:17:06] ERROR [abrigo.views:84] Casa Floripa
+[14/Nov/2015 00:36:12] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 71, in shelters
+    if obj.abrigo in list_obj:
+NameError: global name 'list_obj' is not defined
+[14/Nov/2015 00:36:17] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 71, in shelters
+    if obj.abrigo in list_obj:
+NameError: global name 'list_obj' is not defined
+[14/Nov/2015 00:38:13] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 71, in shelters
+    if obj.abrigo.ok in list_abrigo:
+AttributeError: 'Abrigo' object has no attribute 'ok'
+[14/Nov/2015 00:38:13] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 71, in shelters
+    if obj.abrigo.ok in list_abrigo:
+AttributeError: 'Abrigo' object has no attribute 'ok'
+[14/Nov/2015 01:04:16] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 71, in shelters
+    if obj.abrigo.ok in list_abrigo:
+AttributeError: 'Abrigo' object has no attribute 'ok'
+[14/Nov/2015 01:12:30] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 71, in shelters
+    country_short_name = AddressComponent.objects.filter(location=obj.location,types__contains='country').values_list('short_name')
+  File "/usr/lib/python2.7/site-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 590, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 608, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1198, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1232, in _add_q
+    current_negated=current_negated)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1122, in build_filter
+    lookup_type, value)
+  File "/usr/lib/python2.7/site-packages/django/db/models/fields/related.py", line 1111, in get_lookup_constraint
+    raise TypeError('Related Field got invalid lookup: %s' % lookup_type)
+TypeError: Related Field got invalid lookup: contains
+[14/Nov/2015 01:13:03] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 71, in shelters
+    country_short_name = AddressComponent.objects.filter(location=obj.location,types__contains='country').values_list('short_name')
+  File "/usr/lib/python2.7/site-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 590, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 608, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1198, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1232, in _add_q
+    current_negated=current_negated)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1122, in build_filter
+    lookup_type, value)
+  File "/usr/lib/python2.7/site-packages/django/db/models/fields/related.py", line 1111, in get_lookup_constraint
+    raise TypeError('Related Field got invalid lookup: %s' % lookup_type)
+TypeError: Related Field got invalid lookup: contains
+[14/Nov/2015 01:13:21] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 71, in shelters
+    country_short_name = AddressComponent.objects.filter(location=obj.location,types__name__contains='country').values_list('short_name')
+  File "/usr/lib/python2.7/site-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 590, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 608, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1198, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1232, in _add_q
+    current_negated=current_negated)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1122, in build_filter
+    lookup_type, value)
+  File "/usr/lib/python2.7/site-packages/django/db/models/fields/related.py", line 1111, in get_lookup_constraint
+    raise TypeError('Related Field got invalid lookup: %s' % lookup_type)
+TypeError: Related Field got invalid lookup: contains
+[14/Nov/2015 01:13:24] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 71, in shelters
+    country_short_name = AddressComponent.objects.filter(location=obj.location,types__name__contains='country').values_list('short_name')
+  File "/usr/lib/python2.7/site-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 590, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 608, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1198, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1232, in _add_q
+    current_negated=current_negated)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1122, in build_filter
+    lookup_type, value)
+  File "/usr/lib/python2.7/site-packages/django/db/models/fields/related.py", line 1111, in get_lookup_constraint
+    raise TypeError('Related Field got invalid lookup: %s' % lookup_type)
+TypeError: Related Field got invalid lookup: contains
+[14/Nov/2015 01:15:11] ERROR [abrigo.views:72] [(u'BR',)]
+[14/Nov/2015 01:15:11] ERROR [abrigo.views:72] [(u'BR',)]
+[14/Nov/2015 01:15:11] ERROR [abrigo.views:72] [(u'BR',)]
+[14/Nov/2015 01:15:57] ERROR [abrigo.views:72] [(u'BR',)]
+[14/Nov/2015 01:15:57] ERROR [abrigo.views:72] [(u'BR',)]
+[14/Nov/2015 01:15:57] ERROR [abrigo.views:72] [(u'BR',)]
+[14/Nov/2015 01:20:00] ERROR [abrigo.views:72] [(u'SP',)]
+[14/Nov/2015 01:20:00] ERROR [abrigo.views:72] [(u'SP',)]
+[14/Nov/2015 01:20:00] ERROR [abrigo.views:72] [(u'SC',)]
+[14/Nov/2015 01:20:09] ERROR [abrigo.views:72] [(u'SP',)]
+[14/Nov/2015 01:20:09] ERROR [abrigo.views:72] [(u'SP',)]
+[14/Nov/2015 01:20:09] ERROR [abrigo.views:72] [(u'SC',)]
+[14/Nov/2015 01:20:29] ERROR [abrigo.views:72] [(u'SP',)]
+[14/Nov/2015 01:20:29] ERROR [abrigo.views:72] [(u'SP',)]
+[14/Nov/2015 01:20:29] ERROR [abrigo.views:72] [(u'SC',)]
+[14/Nov/2015 01:20:29] ERROR [abrigo.views:72] [(u'SP',)]
+[14/Nov/2015 01:20:29] ERROR [abrigo.views:72] [(u'SP',)]
+[14/Nov/2015 01:20:29] ERROR [abrigo.views:72] [(u'SC',)]
+[14/Nov/2015 01:20:45] ERROR [abrigo.views:72] [(u'SP',)]
+[14/Nov/2015 01:20:45] ERROR [abrigo.views:72] [(u'SP',)]
+[14/Nov/2015 01:20:45] ERROR [abrigo.views:72] [(u'SC',)]
+[14/Nov/2015 01:25:43] ERROR [abrigo.views:72] [(u'SP',)]
+[14/Nov/2015 01:25:43] ERROR [abrigo.views:72] [(u'SP',)]
+[14/Nov/2015 01:25:43] ERROR [abrigo.views:72] [(u'SC',)]
+[14/Nov/2015 01:26:07] ERROR [abrigo.views:72] [(u'SP',)]
+[14/Nov/2015 01:26:07] ERROR [abrigo.views:72] [(u'SP',)]
+[14/Nov/2015 01:26:07] ERROR [abrigo.views:72] [(u'SC',)]
+[14/Nov/2015 01:26:26] ERROR [abrigo.views:72] [(u'SP',)]
+[14/Nov/2015 01:26:26] ERROR [abrigo.views:72] [(u'SP',)]
+[14/Nov/2015 01:26:26] ERROR [abrigo.views:72] [(u'SC',)]
+[14/Nov/2015 01:26:48] ERROR [abrigo.views:72] [(u'SP',)]
+[14/Nov/2015 01:26:48] ERROR [abrigo.views:72] [(u'SP',)]
+[14/Nov/2015 01:26:48] ERROR [abrigo.views:72] [(u'SC',)]
+[14/Nov/2015 01:41:28] ERROR [abrigo.views:72] [(u'SP',)]
+[14/Nov/2015 01:41:28] ERROR [abrigo.views:75] []
+[14/Nov/2015 01:41:28] ERROR [abrigo.views:72] [(u'SP',)]
+[14/Nov/2015 01:41:28] ERROR [abrigo.views:75] [[(u'SP',)]]
+[14/Nov/2015 01:41:28] ERROR [abrigo.views:72] [(u'SC',)]
+[14/Nov/2015 01:41:28] ERROR [abrigo.views:75] [[(u'SP',)], [(u'SP',)]]
+[14/Nov/2015 01:41:35] ERROR [abrigo.views:72] [(u'SP',)]
+[14/Nov/2015 01:41:35] ERROR [abrigo.views:75] []
+[14/Nov/2015 01:41:35] ERROR [abrigo.views:72] [(u'SP',)]
+[14/Nov/2015 01:41:35] ERROR [abrigo.views:75] [[(u'SP',)]]
+[14/Nov/2015 01:41:35] ERROR [abrigo.views:72] [(u'SC',)]
+[14/Nov/2015 01:41:35] ERROR [abrigo.views:75] [[(u'SP',)], [(u'SP',)]]
+[14/Nov/2015 01:42:31] ERROR [abrigo.views:72] [(u'SP',)]
+[14/Nov/2015 01:42:31] ERROR [abrigo.views:75] []
+[14/Nov/2015 01:42:31] ERROR [abrigo.views:72] [(u'SP',)]
+[14/Nov/2015 01:42:31] ERROR [abrigo.views:72] [(u'SC',)]
+[14/Nov/2015 01:42:31] ERROR [abrigo.views:75] [(u'SP',)]
+[14/Nov/2015 01:42:34] ERROR [abrigo.views:72] [(u'SP',)]
+[14/Nov/2015 01:42:34] ERROR [abrigo.views:75] []
+[14/Nov/2015 01:42:34] ERROR [abrigo.views:72] [(u'SP',)]
+[14/Nov/2015 01:42:34] ERROR [abrigo.views:72] [(u'SC',)]
+[14/Nov/2015 01:42:34] ERROR [abrigo.views:75] [(u'SP',)]
+[14/Nov/2015 01:42:37] ERROR [abrigo.views:72] [(u'SP',)]
+[14/Nov/2015 01:42:37] ERROR [abrigo.views:75] []
+[14/Nov/2015 01:42:37] ERROR [abrigo.views:72] [(u'SP',)]
+[14/Nov/2015 01:42:37] ERROR [abrigo.views:72] [(u'SC',)]
+[14/Nov/2015 01:42:37] ERROR [abrigo.views:75] [(u'SP',)]
+[14/Nov/2015 01:43:25] ERROR [abrigo.views:72] (u'SP',)
+[14/Nov/2015 01:43:25] ERROR [abrigo.views:75] []
+[14/Nov/2015 01:43:25] ERROR [abrigo.views:72] (u'SP',)
+[14/Nov/2015 01:43:25] ERROR [abrigo.views:72] (u'SC',)
+[14/Nov/2015 01:43:25] ERROR [abrigo.views:75] [(u'SP',)]
+[14/Nov/2015 01:43:25] ERROR [abrigo.views:72] (u'SP',)
+[14/Nov/2015 01:43:25] ERROR [abrigo.views:75] []
+[14/Nov/2015 01:43:25] ERROR [abrigo.views:72] (u'SP',)
+[14/Nov/2015 01:43:25] ERROR [abrigo.views:72] (u'SC',)
+[14/Nov/2015 01:43:25] ERROR [abrigo.views:75] [(u'SP',)]
+[14/Nov/2015 01:43:33] ERROR [abrigo.views:72] (u'SP',)
+[14/Nov/2015 01:43:33] ERROR [abrigo.views:75] []
+[14/Nov/2015 01:43:33] ERROR [abrigo.views:72] (u'SP',)
+[14/Nov/2015 01:43:33] ERROR [abrigo.views:72] (u'SC',)
+[14/Nov/2015 01:43:33] ERROR [abrigo.views:75] [(u'SP',)]
+[14/Nov/2015 01:46:12] ERROR [abrigo.views:72] (u'SP',)
+[14/Nov/2015 01:46:12] ERROR [abrigo.views:72] (u'SP',)
+[14/Nov/2015 01:46:12] ERROR [abrigo.views:72] (u'SC',)
+[14/Nov/2015 01:46:12] ERROR [abrigo.views:72] (u'SP',)
+[14/Nov/2015 01:46:12] ERROR [abrigo.views:72] (u'SP',)
+[14/Nov/2015 01:46:12] ERROR [abrigo.views:72] (u'SC',)
+[14/Nov/2015 02:18:13] ERROR [abrigo.views:72] 0
+[14/Nov/2015 02:18:13] ERROR [abrigo.views:72] 1
+[14/Nov/2015 02:18:13] ERROR [abrigo.views:72] 2
+[14/Nov/2015 02:18:55] ERROR [abrigo.views:72] 0
+[14/Nov/2015 02:18:55] ERROR [abrigo.views:78] ----
+[14/Nov/2015 02:18:55] ERROR [abrigo.views:72] 1
+[14/Nov/2015 02:18:55] ERROR [abrigo.views:72] 2
+[14/Nov/2015 02:18:55] ERROR [abrigo.views:78] ----
+[14/Nov/2015 02:19:12] ERROR [abrigo.views:72] 0
+[14/Nov/2015 02:19:12] ERROR [abrigo.views:78] ----
+[14/Nov/2015 02:19:12] ERROR [abrigo.views:72] 1
+[14/Nov/2015 02:19:12] ERROR [abrigo.views:72] 2
+[14/Nov/2015 02:19:12] ERROR [abrigo.views:78] ----
+[14/Nov/2015 02:19:23] ERROR [abrigo.views:72] 0
+[14/Nov/2015 02:19:23] ERROR [abrigo.views:78] ----
+[14/Nov/2015 02:19:23] ERROR [abrigo.views:72] 1
+[14/Nov/2015 02:19:23] ERROR [abrigo.views:72] 2
+[14/Nov/2015 02:19:23] ERROR [abrigo.views:78] ----
+[14/Nov/2015 02:19:27] ERROR [abrigo.views:72] 0
+[14/Nov/2015 02:19:27] ERROR [abrigo.views:78] ----
+[14/Nov/2015 02:19:27] ERROR [abrigo.views:72] 1
+[14/Nov/2015 02:19:27] ERROR [abrigo.views:72] 2
+[14/Nov/2015 02:19:27] ERROR [abrigo.views:78] ----
+[14/Nov/2015 02:21:06] ERROR [abrigo.views:72] 0
+[14/Nov/2015 02:21:06] ERROR [abrigo.views:78] ----
+[14/Nov/2015 02:21:06] ERROR [abrigo.views:72] 1
+[14/Nov/2015 02:21:06] ERROR [abrigo.views:72] 0
+[14/Nov/2015 02:21:06] ERROR [abrigo.views:78] ----
+[14/Nov/2015 02:21:06] ERROR [abrigo.views:72] 2
+[14/Nov/2015 02:21:06] ERROR [abrigo.views:78] ----
+[14/Nov/2015 02:21:06] ERROR [abrigo.views:72] 1
+[14/Nov/2015 02:21:06] ERROR [abrigo.views:72] 2
+[14/Nov/2015 02:21:06] ERROR [abrigo.views:78] ----
+[14/Nov/2015 02:36:21] ERROR [abrigo.views:72] 0
+[14/Nov/2015 02:36:21] ERROR [abrigo.views:78] ----
+[14/Nov/2015 02:36:21] ERROR [abrigo.views:72] 1
+[14/Nov/2015 02:36:22] ERROR [abrigo.views:72] 2
+[14/Nov/2015 02:36:22] ERROR [abrigo.views:78] ----
+[14/Nov/2015 03:01:50] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 74, in shelters
+    if 'administrative_area_level_1' in address_component.types and addresses_component.short_name not in list_state:
+TypeError: argument of type 'ManyRelatedManager' is not iterable
+[14/Nov/2015 03:02:29] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 74, in shelters
+    if 'administrative_area_level_1' in address_component.types and addresses_component.short_name not in list_state:
+TypeError: argument of type 'ManyRelatedManager' is not iterable
+[14/Nov/2015 03:03:24] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 74, in shelters
+    if 'administrative_area_level_1' in address_component.types and address_component.short_name not in list_state:
+TypeError: argument of type 'ManyRelatedManager' is not iterable
+[14/Nov/2015 03:03:26] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 74, in shelters
+    if 'administrative_area_level_1' in address_component.types and address_component.short_name not in list_state:
+TypeError: argument of type 'ManyRelatedManager' is not iterable
+[14/Nov/2015 03:04:00] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 74, in shelters
+    if 'administrative_area_level_1' in address_component.types and address_component.short_name not in list_state:
+TypeError: argument of type 'ManyRelatedManager' is not iterable
+[14/Nov/2015 03:04:42] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 74, in shelters
+    if 'administrative_area_level_1' in address_component.types and address_component.short_name not in list_state:
+TypeError: argument of type 'ManyRelatedManager' is not iterable
+[14/Nov/2015 03:06:51] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 74, in shelters
+    if 'administrative_area_level_1' in address_component.types.all() and address_component.short_name not in list_state:
+TypeError: argument of type 'ManyRelatedManager' is not iterable
+[14/Nov/2015 03:10:07] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 91, in shelters
+    return HttpResponse(json.dumps(addresses_components).replace("'","\""))
+NameError: global name 'addresses_components' is not defined
+[14/Nov/2015 12:02:58] ERROR [abrigo.views:75] 18
+[14/Nov/2015 12:02:58] ERROR [abrigo.views:75] R. Rui Pinto
+[14/Nov/2015 12:02:58] ERROR [abrigo.views:75] Vila Morse
+[14/Nov/2015 12:02:58] ERROR [abrigo.views:75] São Paulo
+[14/Nov/2015 12:02:58] ERROR [abrigo.views:75] SP
+[14/Nov/2015 12:02:58] ERROR [abrigo.views:75] BR
+[14/Nov/2015 12:02:58] ERROR [abrigo.views:75] 05624-100
+[14/Nov/2015 12:02:58] ERROR [abrigo.views:75] 6
+[14/Nov/2015 12:02:58] ERROR [abrigo.views:75] R. Azevedo Sodré
+[14/Nov/2015 12:02:58] ERROR [abrigo.views:75] Gonzaga
+[14/Nov/2015 12:02:58] ERROR [abrigo.views:75] Santos
+[14/Nov/2015 12:02:58] ERROR [abrigo.views:75] SP
+[14/Nov/2015 12:02:58] ERROR [abrigo.views:75] BR
+[14/Nov/2015 12:02:58] ERROR [abrigo.views:75] 11055-051
+[14/Nov/2015 12:02:58] ERROR [abrigo.views:75] 110
+[14/Nov/2015 12:02:58] ERROR [abrigo.views:75] R. Neivo Paulo Rogelin
+[14/Nov/2015 12:02:58] ERROR [abrigo.views:75] Barra da Lagoa
+[14/Nov/2015 12:02:58] ERROR [abrigo.views:75] Florianópolis
+[14/Nov/2015 12:02:58] ERROR [abrigo.views:75] SC
+[14/Nov/2015 12:02:58] ERROR [abrigo.views:75] BR
+[14/Nov/2015 12:02:58] ERROR [abrigo.views:75] 88061-165
+[14/Nov/2015 12:04:13] ERROR [abrigo.views:75] 18
+[14/Nov/2015 12:04:13] ERROR [abrigo.views:76] [<AddressComponentType: street_number>]
+[14/Nov/2015 12:04:13] ERROR [abrigo.views:75] R. Rui Pinto
+[14/Nov/2015 12:04:13] ERROR [abrigo.views:76] [<AddressComponentType: route>]
+[14/Nov/2015 12:04:13] ERROR [abrigo.views:75] Vila Morse
+[14/Nov/2015 12:04:13] ERROR [abrigo.views:76] [<AddressComponentType: sublocality_level_1>, <AddressComponentType: sublocality>, <AddressComponentType: political>]
+[14/Nov/2015 12:04:13] ERROR [abrigo.views:75] São Paulo
+[14/Nov/2015 12:04:13] ERROR [abrigo.views:76] [<AddressComponentType: political>, <AddressComponentType: administrative_area_level_2>]
+[14/Nov/2015 12:04:13] ERROR [abrigo.views:75] SP
+[14/Nov/2015 12:04:13] ERROR [abrigo.views:76] [<AddressComponentType: political>, <AddressComponentType: administrative_area_level_1>]
+[14/Nov/2015 12:04:13] ERROR [abrigo.views:75] BR
+[14/Nov/2015 12:04:13] ERROR [abrigo.views:76] [<AddressComponentType: political>, <AddressComponentType: country>]
+[14/Nov/2015 12:04:13] ERROR [abrigo.views:75] 05624-100
+[14/Nov/2015 12:04:13] ERROR [abrigo.views:76] [<AddressComponentType: postal_code>]
+[14/Nov/2015 12:04:13] ERROR [abrigo.views:75] 6
+[14/Nov/2015 12:04:13] ERROR [abrigo.views:76] [<AddressComponentType: street_number>]
+[14/Nov/2015 12:04:13] ERROR [abrigo.views:75] R. Azevedo Sodré
+[14/Nov/2015 12:04:13] ERROR [abrigo.views:76] [<AddressComponentType: route>]
+[14/Nov/2015 12:04:13] ERROR [abrigo.views:75] Gonzaga
+[14/Nov/2015 12:04:13] ERROR [abrigo.views:76] [<AddressComponentType: sublocality_level_1>, <AddressComponentType: sublocality>, <AddressComponentType: political>]
+[14/Nov/2015 12:04:13] ERROR [abrigo.views:75] Santos
+[14/Nov/2015 12:04:13] ERROR [abrigo.views:76] [<AddressComponentType: political>, <AddressComponentType: administrative_area_level_2>]
+[14/Nov/2015 12:04:13] ERROR [abrigo.views:75] SP
+[14/Nov/2015 12:04:13] ERROR [abrigo.views:76] [<AddressComponentType: political>, <AddressComponentType: administrative_area_level_1>]
+[14/Nov/2015 12:04:13] ERROR [abrigo.views:75] BR
+[14/Nov/2015 12:04:13] ERROR [abrigo.views:76] [<AddressComponentType: political>, <AddressComponentType: country>]
+[14/Nov/2015 12:04:13] ERROR [abrigo.views:75] 11055-051
+[14/Nov/2015 12:04:13] ERROR [abrigo.views:76] [<AddressComponentType: postal_code>]
+[14/Nov/2015 12:04:13] ERROR [abrigo.views:75] 110
+[14/Nov/2015 12:04:13] ERROR [abrigo.views:76] [<AddressComponentType: street_number>]
+[14/Nov/2015 12:04:13] ERROR [abrigo.views:75] R. Neivo Paulo Rogelin
+[14/Nov/2015 12:04:13] ERROR [abrigo.views:76] [<AddressComponentType: route>]
+[14/Nov/2015 12:04:13] ERROR [abrigo.views:75] Barra da Lagoa
+[14/Nov/2015 12:04:13] ERROR [abrigo.views:76] [<AddressComponentType: sublocality_level_1>, <AddressComponentType: sublocality>, <AddressComponentType: political>]
+[14/Nov/2015 12:04:13] ERROR [abrigo.views:75] Florianópolis
+[14/Nov/2015 12:04:13] ERROR [abrigo.views:76] [<AddressComponentType: political>, <AddressComponentType: administrative_area_level_2>]
+[14/Nov/2015 12:04:13] ERROR [abrigo.views:75] SC
+[14/Nov/2015 12:04:13] ERROR [abrigo.views:76] [<AddressComponentType: political>, <AddressComponentType: administrative_area_level_1>]
+[14/Nov/2015 12:04:13] ERROR [abrigo.views:75] BR
+[14/Nov/2015 12:04:13] ERROR [abrigo.views:76] [<AddressComponentType: political>, <AddressComponentType: country>]
+[14/Nov/2015 12:04:13] ERROR [abrigo.views:75] 88061-165
+[14/Nov/2015 12:04:13] ERROR [abrigo.views:76] [<AddressComponentType: postal_code>]
+[14/Nov/2015 12:06:12] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 70, in shelters
+    address_componenet_type=AddressComponentType.objects.filter(name__containts='administrative_area_level_1')
+  File "/usr/lib/python2.7/site-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 590, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 608, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1198, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1232, in _add_q
+    current_negated=current_negated)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1100, in build_filter
+    allow_explicit_fk=True)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1351, in setup_joins
+    names, opts, allow_many, allow_explicit_fk)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1314, in names_to_path
+    "the lookup type?" % (name, names[pos + 1]))
+FieldError: Join on field 'name' not permitted. Did you misspell 'containts' for the lookup type?
+[14/Nov/2015 12:07:16] ERROR [abrigo.views:71] [<AddressComponentType: administrative_area_level_1>]
+[14/Nov/2015 12:07:16] ERROR [abrigo.views:77] 18
+[14/Nov/2015 12:07:16] ERROR [abrigo.views:78] [<AddressComponentType: street_number>]
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:71] [<AddressComponentType: administrative_area_level_1>]
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:77] R. Rui Pinto
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:78] [<AddressComponentType: route>]
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:71] [<AddressComponentType: administrative_area_level_1>]
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:77] Vila Morse
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:78] [<AddressComponentType: sublocality_level_1>, <AddressComponentType: sublocality>, <AddressComponentType: political>]
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:71] [<AddressComponentType: administrative_area_level_1>]
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:77] São Paulo
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:78] [<AddressComponentType: political>, <AddressComponentType: administrative_area_level_2>]
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:71] [<AddressComponentType: administrative_area_level_1>]
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:77] SP
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:78] [<AddressComponentType: political>, <AddressComponentType: administrative_area_level_1>]
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:71] [<AddressComponentType: administrative_area_level_1>]
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:77] BR
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:78] [<AddressComponentType: political>, <AddressComponentType: country>]
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:71] [<AddressComponentType: administrative_area_level_1>]
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:77] 05624-100
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:78] [<AddressComponentType: postal_code>]
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:71] [<AddressComponentType: administrative_area_level_1>]
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:77] 6
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:78] [<AddressComponentType: street_number>]
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:71] [<AddressComponentType: administrative_area_level_1>]
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:77] R. Azevedo Sodré
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:78] [<AddressComponentType: route>]
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:71] [<AddressComponentType: administrative_area_level_1>]
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:77] Gonzaga
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:78] [<AddressComponentType: sublocality_level_1>, <AddressComponentType: sublocality>, <AddressComponentType: political>]
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:71] [<AddressComponentType: administrative_area_level_1>]
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:77] Santos
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:78] [<AddressComponentType: political>, <AddressComponentType: administrative_area_level_2>]
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:71] [<AddressComponentType: administrative_area_level_1>]
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:77] SP
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:78] [<AddressComponentType: political>, <AddressComponentType: administrative_area_level_1>]
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:71] [<AddressComponentType: administrative_area_level_1>]
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:77] BR
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:78] [<AddressComponentType: political>, <AddressComponentType: country>]
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:71] [<AddressComponentType: administrative_area_level_1>]
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:77] 11055-051
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:78] [<AddressComponentType: postal_code>]
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:71] [<AddressComponentType: administrative_area_level_1>]
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:77] 110
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:78] [<AddressComponentType: street_number>]
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:71] [<AddressComponentType: administrative_area_level_1>]
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:77] R. Neivo Paulo Rogelin
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:78] [<AddressComponentType: route>]
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:71] [<AddressComponentType: administrative_area_level_1>]
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:77] Barra da Lagoa
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:78] [<AddressComponentType: sublocality_level_1>, <AddressComponentType: sublocality>, <AddressComponentType: political>]
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:71] [<AddressComponentType: administrative_area_level_1>]
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:77] Florianópolis
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:78] [<AddressComponentType: political>, <AddressComponentType: administrative_area_level_2>]
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:71] [<AddressComponentType: administrative_area_level_1>]
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:77] SC
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:78] [<AddressComponentType: political>, <AddressComponentType: administrative_area_level_1>]
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:71] [<AddressComponentType: administrative_area_level_1>]
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:77] BR
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:78] [<AddressComponentType: political>, <AddressComponentType: country>]
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:71] [<AddressComponentType: administrative_area_level_1>]
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:77] 88061-165
+[14/Nov/2015 12:07:17] ERROR [abrigo.views:78] [<AddressComponentType: postal_code>]
+[14/Nov/2015 12:07:58] ERROR [abrigo.views:71] [<AddressComponentType: administrative_area_level_1>]
+[14/Nov/2015 12:07:58] ERROR [abrigo.views:71] [<AddressComponentType: administrative_area_level_1>]
+[14/Nov/2015 12:07:58] ERROR [abrigo.views:71] [<AddressComponentType: administrative_area_level_1>]
+[14/Nov/2015 12:07:58] ERROR [abrigo.views:71] [<AddressComponentType: administrative_area_level_1>]
+[14/Nov/2015 12:07:58] ERROR [abrigo.views:71] [<AddressComponentType: administrative_area_level_1>]
+[14/Nov/2015 12:07:58] ERROR [abrigo.views:71] [<AddressComponentType: administrative_area_level_1>]
+[14/Nov/2015 12:07:58] ERROR [abrigo.views:71] [<AddressComponentType: administrative_area_level_1>]
+[14/Nov/2015 12:07:58] ERROR [abrigo.views:71] [<AddressComponentType: administrative_area_level_1>]
+[14/Nov/2015 12:07:58] ERROR [abrigo.views:71] [<AddressComponentType: administrative_area_level_1>]
+[14/Nov/2015 12:07:58] ERROR [abrigo.views:71] [<AddressComponentType: administrative_area_level_1>]
+[14/Nov/2015 12:07:58] ERROR [abrigo.views:71] [<AddressComponentType: administrative_area_level_1>]
+[14/Nov/2015 12:07:58] ERROR [abrigo.views:71] [<AddressComponentType: administrative_area_level_1>]
+[14/Nov/2015 12:07:58] ERROR [abrigo.views:71] [<AddressComponentType: administrative_area_level_1>]
+[14/Nov/2015 12:07:58] ERROR [abrigo.views:71] [<AddressComponentType: administrative_area_level_1>]
+[14/Nov/2015 12:07:58] ERROR [abrigo.views:71] [<AddressComponentType: administrative_area_level_1>]
+[14/Nov/2015 12:07:58] ERROR [abrigo.views:71] [<AddressComponentType: administrative_area_level_1>]
+[14/Nov/2015 12:07:58] ERROR [abrigo.views:71] [<AddressComponentType: administrative_area_level_1>]
+[14/Nov/2015 12:07:58] ERROR [abrigo.views:71] [<AddressComponentType: administrative_area_level_1>]
+[14/Nov/2015 12:07:58] ERROR [abrigo.views:71] [<AddressComponentType: administrative_area_level_1>]
+[14/Nov/2015 12:07:58] ERROR [abrigo.views:71] [<AddressComponentType: administrative_area_level_1>]
+[14/Nov/2015 12:07:58] ERROR [abrigo.views:71] [<AddressComponentType: administrative_area_level_1>]
+[14/Nov/2015 12:09:05] ERROR [abrigo.views:71] [<AddressComponentType: street_number>]
+[14/Nov/2015 12:09:05] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 72, in shelters
+    LOGGER.error(address_component_type)
+NameError: global name 'address_component_type' is not defined
+[14/Nov/2015 12:09:38] ERROR [abrigo.views:71] [<AddressComponentType: street_number>]
+[14/Nov/2015 12:09:38] ERROR [abrigo.views:71] [<AddressComponentType: route>]
+[14/Nov/2015 12:09:38] ERROR [abrigo.views:71] [<AddressComponentType: sublocality_level_1>, <AddressComponentType: sublocality>, <AddressComponentType: political>]
+[14/Nov/2015 12:09:38] ERROR [abrigo.views:71] [<AddressComponentType: political>, <AddressComponentType: administrative_area_level_2>]
+[14/Nov/2015 12:09:38] ERROR [abrigo.views:71] [<AddressComponentType: political>, <AddressComponentType: administrative_area_level_1>]
+[14/Nov/2015 12:09:38] ERROR [abrigo.views:71] [<AddressComponentType: political>, <AddressComponentType: country>]
+[14/Nov/2015 12:09:38] ERROR [abrigo.views:71] [<AddressComponentType: postal_code>]
+[14/Nov/2015 12:09:38] ERROR [abrigo.views:71] [<AddressComponentType: street_number>]
+[14/Nov/2015 12:09:38] ERROR [abrigo.views:71] [<AddressComponentType: route>]
+[14/Nov/2015 12:09:38] ERROR [abrigo.views:71] [<AddressComponentType: sublocality_level_1>, <AddressComponentType: sublocality>, <AddressComponentType: political>]
+[14/Nov/2015 12:09:38] ERROR [abrigo.views:71] [<AddressComponentType: political>, <AddressComponentType: administrative_area_level_2>]
+[14/Nov/2015 12:09:38] ERROR [abrigo.views:71] [<AddressComponentType: political>, <AddressComponentType: administrative_area_level_1>]
+[14/Nov/2015 12:09:38] ERROR [abrigo.views:71] [<AddressComponentType: political>, <AddressComponentType: country>]
+[14/Nov/2015 12:09:38] ERROR [abrigo.views:71] [<AddressComponentType: postal_code>]
+[14/Nov/2015 12:09:38] ERROR [abrigo.views:71] [<AddressComponentType: street_number>]
+[14/Nov/2015 12:09:38] ERROR [abrigo.views:71] [<AddressComponentType: route>]
+[14/Nov/2015 12:09:38] ERROR [abrigo.views:71] [<AddressComponentType: sublocality_level_1>, <AddressComponentType: sublocality>, <AddressComponentType: political>]
+[14/Nov/2015 12:09:38] ERROR [abrigo.views:71] [<AddressComponentType: political>, <AddressComponentType: administrative_area_level_2>]
+[14/Nov/2015 12:09:38] ERROR [abrigo.views:71] [<AddressComponentType: political>, <AddressComponentType: administrative_area_level_1>]
+[14/Nov/2015 12:09:38] ERROR [abrigo.views:71] [<AddressComponentType: political>, <AddressComponentType: country>]
+[14/Nov/2015 12:09:38] ERROR [abrigo.views:71] [<AddressComponentType: postal_code>]
+[14/Nov/2015 12:10:37] ERROR [abrigo.views:71] False
+[14/Nov/2015 12:10:37] ERROR [abrigo.views:71] False
+[14/Nov/2015 12:10:37] ERROR [abrigo.views:71] False
+[14/Nov/2015 12:10:37] ERROR [abrigo.views:71] False
+[14/Nov/2015 12:10:37] ERROR [abrigo.views:71] False
+[14/Nov/2015 12:10:37] ERROR [abrigo.views:71] False
+[14/Nov/2015 12:10:37] ERROR [abrigo.views:71] False
+[14/Nov/2015 12:10:37] ERROR [abrigo.views:71] False
+[14/Nov/2015 12:10:37] ERROR [abrigo.views:71] False
+[14/Nov/2015 12:10:37] ERROR [abrigo.views:71] False
+[14/Nov/2015 12:10:37] ERROR [abrigo.views:71] False
+[14/Nov/2015 12:10:37] ERROR [abrigo.views:71] False
+[14/Nov/2015 12:10:37] ERROR [abrigo.views:71] False
+[14/Nov/2015 12:10:37] ERROR [abrigo.views:71] False
+[14/Nov/2015 12:10:37] ERROR [abrigo.views:71] False
+[14/Nov/2015 12:10:37] ERROR [abrigo.views:71] False
+[14/Nov/2015 12:10:37] ERROR [abrigo.views:71] False
+[14/Nov/2015 12:10:37] ERROR [abrigo.views:71] False
+[14/Nov/2015 12:10:37] ERROR [abrigo.views:71] False
+[14/Nov/2015 12:10:37] ERROR [abrigo.views:71] False
+[14/Nov/2015 12:10:37] ERROR [abrigo.views:71] False
+[14/Nov/2015 12:11:14] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 71, in shelters
+    LOGGER.error(AddressComponentType.objects.filter(name__contains='administrative_area_level_1') in address_component.types)
+TypeError: argument of type 'ManyRelatedManager' is not iterable
+[14/Nov/2015 12:12:12] ERROR [abrigo.views:71] False
+[14/Nov/2015 12:12:12] ERROR [abrigo.views:71] False
+[14/Nov/2015 12:12:12] ERROR [abrigo.views:71] False
+[14/Nov/2015 12:12:12] ERROR [abrigo.views:71] False
+[14/Nov/2015 12:12:12] ERROR [abrigo.views:71] True
+[14/Nov/2015 12:12:12] ERROR [abrigo.views:71] False
+[14/Nov/2015 12:12:12] ERROR [abrigo.views:71] False
+[14/Nov/2015 12:12:12] ERROR [abrigo.views:71] False
+[14/Nov/2015 12:12:12] ERROR [abrigo.views:71] False
+[14/Nov/2015 12:12:12] ERROR [abrigo.views:71] False
+[14/Nov/2015 12:12:12] ERROR [abrigo.views:71] False
+[14/Nov/2015 12:12:12] ERROR [abrigo.views:71] True
+[14/Nov/2015 12:12:12] ERROR [abrigo.views:71] False
+[14/Nov/2015 12:12:12] ERROR [abrigo.views:71] False
+[14/Nov/2015 12:12:12] ERROR [abrigo.views:71] False
+[14/Nov/2015 12:12:12] ERROR [abrigo.views:71] False
+[14/Nov/2015 12:12:12] ERROR [abrigo.views:71] False
+[14/Nov/2015 12:12:12] ERROR [abrigo.views:71] False
+[14/Nov/2015 12:12:12] ERROR [abrigo.views:71] True
+[14/Nov/2015 12:12:12] ERROR [abrigo.views:71] False
+[14/Nov/2015 12:12:12] ERROR [abrigo.views:71] False
+[14/Nov/2015 12:13:51] ERROR [abrigo.views:77] SP
+[14/Nov/2015 12:13:51] ERROR [abrigo.views:77] SC
+[14/Nov/2015 12:14:29] ERROR [abrigo.views:77] SP
+[14/Nov/2015 12:14:29] ERROR [abrigo.views:77] SC
+[14/Nov/2015 12:15:43] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 82, in shelters
+    types.append(t.name.encode("utf-8"))
+NameError: global name 't' is not defined
+[14/Nov/2015 12:16:59] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 101, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/lib/python2.7/site-packages/django/core/urlresolvers.py", line 320, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/lib/python2.7/site-packages/django/core/urlresolvers.py", line 222, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/lib/python2.7/site-packages/django/core/urlresolvers.py", line 229, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/lib/python2.7/site-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/lib/python2.7/site-packages/django/core/urlresolvers.py", line 96, in get_callable
+    mod = import_module(mod_name)
+  File "/usr/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/var/projetos/sos_server/abrigo/views.py", line 72
+    if  not in address_component.types.all():
+             ^
+SyntaxError: invalid syntax
+[14/Nov/2015 20:24:20] ERROR [abrigo.views:97] SP
+[14/Nov/2015 20:24:20] ERROR [abrigo.views:99] [(15L,), (16L,)]
+[14/Nov/2015 20:24:20] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 20:24:20] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 20:24:24] ERROR [abrigo.views:97] SP
+[14/Nov/2015 20:24:24] ERROR [abrigo.views:99] [(15L,), (16L,)]
+[14/Nov/2015 20:24:24] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 20:24:24] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 20:24:31] ERROR [abrigo.views:96] SP
+[14/Nov/2015 20:24:31] ERROR [abrigo.views:98] [(15L,), (16L,)]
+[14/Nov/2015 20:24:31] ERROR [abrigo.views:101] AbrigoLocation object
+[14/Nov/2015 20:24:31] ERROR [abrigo.views:101] AbrigoLocation object
+[14/Nov/2015 20:24:52] ERROR [abrigo.views:96] SP
+[14/Nov/2015 20:24:52] ERROR [abrigo.views:98] [(15L,), (16L,)]
+[14/Nov/2015 20:24:52] ERROR [abrigo.views:101] AbrigoLocation object
+[14/Nov/2015 20:24:52] ERROR [abrigo.views:101] AbrigoLocation object
+[14/Nov/2015 20:25:25] ERROR [abrigo.views:97] SP
+[14/Nov/2015 20:25:25] ERROR [abrigo.views:99] [(15L,), (16L,)]
+[14/Nov/2015 20:25:25] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 20:25:25] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 20:26:23] ERROR [abrigo.views:97] SP
+[14/Nov/2015 20:26:23] ERROR [abrigo.views:99] [(15L,), (16L,)]
+[14/Nov/2015 20:26:23] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 20:26:23] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 20:26:35] ERROR [abrigo.views:97] SP
+[14/Nov/2015 20:26:35] ERROR [abrigo.views:99] [(15L,), (16L,)]
+[14/Nov/2015 20:26:35] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 20:26:35] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 20:27:07] ERROR [abrigo.views:97] SP
+[14/Nov/2015 20:27:07] ERROR [abrigo.views:99] [(15L,), (16L,)]
+[14/Nov/2015 20:27:07] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 20:27:07] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 20:28:10] ERROR [abrigo.views:96] SP
+[14/Nov/2015 20:28:10] ERROR [abrigo.views:98] [(15L,), (16L,)]
+[14/Nov/2015 20:28:10] ERROR [abrigo.views:101] AbrigoLocation object
+[14/Nov/2015 20:28:10] ERROR [abrigo.views:101] AbrigoLocation object
+[14/Nov/2015 20:28:22] ERROR [abrigo.views:96] SP
+[14/Nov/2015 20:28:22] ERROR [abrigo.views:98] [(15L,), (16L,)]
+[14/Nov/2015 20:28:22] ERROR [abrigo.views:101] AbrigoLocation object
+[14/Nov/2015 20:28:22] ERROR [abrigo.views:101] AbrigoLocation object
+[14/Nov/2015 20:29:05] ERROR [abrigo.views:96] SP
+[14/Nov/2015 20:29:05] ERROR [abrigo.views:98] [(15L,), (16L,)]
+[14/Nov/2015 20:29:05] ERROR [abrigo.views:101] AbrigoLocation object
+[14/Nov/2015 20:29:05] ERROR [abrigo.views:101] AbrigoLocation object
+[14/Nov/2015 20:29:38] ERROR [abrigo.views:96] SP
+[14/Nov/2015 20:29:38] ERROR [abrigo.views:98] [(15L,), (16L,)]
+[14/Nov/2015 20:29:38] ERROR [abrigo.views:101] AbrigoLocation object
+[14/Nov/2015 20:29:38] ERROR [abrigo.views:101] AbrigoLocation object
+[14/Nov/2015 21:14:18] ERROR [abrigo.views:97] SP
+[14/Nov/2015 21:14:18] ERROR [abrigo.views:99] [(15L,), (16L,)]
+[14/Nov/2015 21:14:18] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:14:18] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:15:36] ERROR [abrigo.views:97] SP
+[14/Nov/2015 21:15:36] ERROR [abrigo.views:99] [(15L,), (16L,)]
+[14/Nov/2015 21:15:36] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:15:36] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:16:09] ERROR [abrigo.views:97] SP
+[14/Nov/2015 21:16:09] ERROR [abrigo.views:99] [(15L,), (16L,)]
+[14/Nov/2015 21:16:09] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:16:09] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:16:39] ERROR [abrigo.views:97] SP
+[14/Nov/2015 21:16:39] ERROR [abrigo.views:99] [(15L,), (16L,)]
+[14/Nov/2015 21:16:39] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:16:39] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:17:03] ERROR [abrigo.views:97] SP
+[14/Nov/2015 21:17:03] ERROR [abrigo.views:99] [(15L,), (16L,)]
+[14/Nov/2015 21:17:03] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:17:03] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:17:08] ERROR [abrigo.views:97] SP
+[14/Nov/2015 21:17:08] ERROR [abrigo.views:99] [(15L,), (16L,)]
+[14/Nov/2015 21:17:08] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:17:08] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:17:20] ERROR [abrigo.views:97] SP
+[14/Nov/2015 21:17:20] ERROR [abrigo.views:99] [(15L,), (16L,)]
+[14/Nov/2015 21:17:20] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:17:20] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:17:38] ERROR [abrigo.views:97] SP
+[14/Nov/2015 21:17:38] ERROR [abrigo.views:99] [(15L,), (16L,)]
+[14/Nov/2015 21:17:38] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:17:38] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:17:49] ERROR [abrigo.views:97] SP
+[14/Nov/2015 21:17:49] ERROR [abrigo.views:99] [(15L,), (16L,)]
+[14/Nov/2015 21:17:49] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:17:49] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:17:55] ERROR [abrigo.views:97] SP
+[14/Nov/2015 21:17:55] ERROR [abrigo.views:99] [(15L,), (16L,)]
+[14/Nov/2015 21:17:55] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:17:55] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:18:02] ERROR [abrigo.views:97] SP
+[14/Nov/2015 21:18:02] ERROR [abrigo.views:99] [(15L,), (16L,)]
+[14/Nov/2015 21:18:02] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:18:02] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:18:11] ERROR [abrigo.views:97] SP
+[14/Nov/2015 21:18:11] ERROR [abrigo.views:99] [(15L,), (16L,)]
+[14/Nov/2015 21:18:11] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:18:11] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:18:22] ERROR [abrigo.views:97] SP
+[14/Nov/2015 21:18:22] ERROR [abrigo.views:99] [(15L,), (16L,)]
+[14/Nov/2015 21:18:22] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:18:22] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:18:30] ERROR [abrigo.views:97] SP
+[14/Nov/2015 21:18:30] ERROR [abrigo.views:99] [(15L,), (16L,)]
+[14/Nov/2015 21:18:30] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:18:30] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:18:37] ERROR [abrigo.views:97] SP
+[14/Nov/2015 21:18:37] ERROR [abrigo.views:99] [(15L,), (16L,)]
+[14/Nov/2015 21:18:37] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:18:37] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:18:51] ERROR [abrigo.views:97] SP
+[14/Nov/2015 21:18:51] ERROR [abrigo.views:99] [(15L,), (16L,)]
+[14/Nov/2015 21:18:51] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:18:51] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:19:34] ERROR [abrigo.views:97] SP
+[14/Nov/2015 21:19:34] ERROR [abrigo.views:99] [(15L,), (16L,)]
+[14/Nov/2015 21:19:34] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:19:34] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:19:40] ERROR [abrigo.views:97] SP
+[14/Nov/2015 21:19:40] ERROR [abrigo.views:99] [(15L,), (16L,)]
+[14/Nov/2015 21:19:40] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:19:40] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:19:53] ERROR [abrigo.views:97] SP
+[14/Nov/2015 21:19:53] ERROR [abrigo.views:99] [(15L,), (16L,)]
+[14/Nov/2015 21:19:53] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:19:53] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:19:58] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 74, in shelters
+    continueyes
+NameError: global name 'continueyes' is not defined
+[14/Nov/2015 21:20:00] ERROR [abrigo.views:97] SP
+[14/Nov/2015 21:20:00] ERROR [abrigo.views:99] [(15L,), (16L,)]
+[14/Nov/2015 21:20:00] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:20:00] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:20:18] ERROR [abrigo.views:97] SP
+[14/Nov/2015 21:20:18] ERROR [abrigo.views:99] [(15L,), (16L,)]
+[14/Nov/2015 21:20:18] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:20:18] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:20:19] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 74, in shelters
+    continueyes
+NameError: global name 'continueyes' is not defined
+[14/Nov/2015 21:20:21] ERROR [abrigo.views:97] SP
+[14/Nov/2015 21:20:21] ERROR [abrigo.views:99] [(15L,), (16L,)]
+[14/Nov/2015 21:20:21] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:20:21] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:20:27] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 74, in shelters
+    continueyes
+NameError: global name 'continueyes' is not defined
+[14/Nov/2015 21:20:34] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 74, in shelters
+    continueyes
+NameError: global name 'continueyes' is not defined
+[14/Nov/2015 21:20:36] ERROR [abrigo.views:97] SP
+[14/Nov/2015 21:20:36] ERROR [abrigo.views:99] [(15L,), (16L,)]
+[14/Nov/2015 21:20:36] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:20:36] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:20:45] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 74, in shelters
+    continueyes
+NameError: global name 'continueyes' is not defined
+[14/Nov/2015 21:20:49] ERROR [django.request:226] Internal Server Error: /shelters/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 74, in shelters
+    continueyes
+NameError: global name 'continueyes' is not defined
+[14/Nov/2015 21:21:44] ERROR [abrigo.views:97] SP
+[14/Nov/2015 21:21:44] ERROR [abrigo.views:99] [(15L,), (16L,)]
+[14/Nov/2015 21:21:44] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:21:44] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:21:47] ERROR [abrigo.views:97] SP
+[14/Nov/2015 21:21:47] ERROR [abrigo.views:99] [(15L,), (16L,)]
+[14/Nov/2015 21:21:47] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:21:47] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:22:06] ERROR [abrigo.views:97] SP
+[14/Nov/2015 21:22:06] ERROR [abrigo.views:99] [(15L,), (16L,)]
+[14/Nov/2015 21:22:06] ERROR [abrigo.views:97] SP
+[14/Nov/2015 21:22:06] ERROR [abrigo.views:99] [(15L,), (16L,)]
+[14/Nov/2015 21:22:06] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:22:06] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:22:06] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:22:06] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:22:37] ERROR [abrigo.views:97] SP
+[14/Nov/2015 21:22:37] ERROR [abrigo.views:99] [(15L,), (16L,)]
+[14/Nov/2015 21:22:37] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:22:37] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:22:41] ERROR [abrigo.views:97] SP
+[14/Nov/2015 21:22:41] ERROR [abrigo.views:99] [(15L,), (16L,)]
+[14/Nov/2015 21:22:41] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:22:41] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:26:05] ERROR [abrigo.views:97] SC
+[14/Nov/2015 21:26:05] ERROR [abrigo.views:99] [(14L,)]
+[14/Nov/2015 21:26:05] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:26:54] ERROR [abrigo.views:97] SP
+[14/Nov/2015 21:26:54] ERROR [abrigo.views:99] [(15L,), (16L,)]
+[14/Nov/2015 21:26:54] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:26:54] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:26:55] ERROR [abrigo.views:97] SC
+[14/Nov/2015 21:26:55] ERROR [abrigo.views:99] [(14L,)]
+[14/Nov/2015 21:26:55] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:27:55] ERROR [abrigo.views:97] SP
+[14/Nov/2015 21:27:55] ERROR [abrigo.views:99] [(15L,), (16L,)]
+[14/Nov/2015 21:27:55] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:27:55] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:28:23] ERROR [abrigo.views:97] SP
+[14/Nov/2015 21:28:23] ERROR [abrigo.views:99] [(15L,), (16L,)]
+[14/Nov/2015 21:28:23] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:28:23] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:28:27] ERROR [abrigo.views:97] SP
+[14/Nov/2015 21:28:27] ERROR [abrigo.views:99] [(15L,), (16L,)]
+[14/Nov/2015 21:28:27] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:28:27] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:28:29] ERROR [abrigo.views:97] SC
+[14/Nov/2015 21:28:29] ERROR [abrigo.views:99] [(14L,)]
+[14/Nov/2015 21:28:29] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:28:32] ERROR [abrigo.views:97] SC
+[14/Nov/2015 21:28:32] ERROR [abrigo.views:99] [(14L,)]
+[14/Nov/2015 21:28:32] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:28:34] ERROR [abrigo.views:97] SP
+[14/Nov/2015 21:28:34] ERROR [abrigo.views:99] [(15L,), (16L,)]
+[14/Nov/2015 21:28:34] ERROR [abrigo.views:102] AbrigoLocation object
+[14/Nov/2015 21:28:34] ERROR [abrigo.views:102] AbrigoLocation object
+[22/Nov/2015 16:01:44] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:01:44] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:01:44] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:04:05] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:04:05] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:04:05] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:05:04] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:05:04] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:05:04] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:06:19] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:06:19] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:06:19] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:06:39] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:06:39] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:06:39] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:08:39] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:08:39] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:08:39] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:09:23] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:09:23] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:09:23] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:10:21] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:10:21] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:10:21] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:10:58] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:10:58] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:10:58] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:11:12] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:11:12] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:11:12] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:11:54] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:11:54] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:11:54] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:13:11] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:13:11] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:13:11] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:13:36] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:13:36] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:13:36] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:14:07] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:14:07] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:14:07] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:14:13] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:14:13] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:14:13] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:14:34] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:14:34] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:14:34] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:17:01] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:17:01] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:17:01] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:17:20] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:17:20] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:17:20] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:18:39] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:18:39] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:18:39] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:19:28] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:19:28] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:19:28] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:19:45] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:19:45] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:19:45] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:20:00] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:20:00] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:20:00] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:20:08] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:20:08] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:20:08] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:21:07] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:21:07] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:21:07] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:22:39] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:22:39] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:22:39] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:24:37] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:24:37] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:24:37] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:26:04] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:26:04] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:26:04] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:26:25] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:26:25] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:26:25] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:26:39] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:26:39] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:26:39] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:32:10] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:32:10] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:32:10] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:32:53] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:32:53] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:32:53] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:33:39] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:33:39] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:33:39] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:35:15] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:35:15] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:35:15] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:37:34] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:37:34] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:37:34] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:39:27] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:39:28] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:39:28] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:41:29] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:41:29] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:41:29] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:42:23] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:42:23] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:42:23] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:42:41] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:42:41] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:42:41] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:42:57] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:42:57] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:42:57] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:44:43] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:44:43] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:44:43] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:45:01] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:45:01] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:45:01] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:45:09] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:45:09] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:45:09] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:45:15] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:45:15] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:45:15] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:47:00] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:47:00] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:47:00] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:47:50] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:47:51] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:47:51] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:47:52] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:47:52] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:47:52] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:48:09] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:48:09] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:48:09] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:48:35] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:48:35] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 16:48:35] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:28:36] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:28:37] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:28:37] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:29:54] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:29:55] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:29:55] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:30:46] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:30:46] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:30:46] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:31:24] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:31:24] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:31:24] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:38:03] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:38:03] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:38:03] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:42:48] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:42:48] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:42:48] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:45:44] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:45:44] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:45:44] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:47:28] ERROR [abrigo.views:110] SC
+[22/Nov/2015 22:47:28] ERROR [abrigo.views:112] [(14L,)]
+[22/Nov/2015 22:47:28] ERROR [abrigo.views:115] AbrigoLocation object
+[22/Nov/2015 22:47:31] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:47:32] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:47:32] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:47:37] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:47:37] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:47:37] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:47:51] ERROR [abrigo.views:110] SP
+[22/Nov/2015 22:47:52] ERROR [abrigo.views:112] [(15L,), (16L,)]
+[22/Nov/2015 22:47:52] ERROR [abrigo.views:115] AbrigoLocation object
+[22/Nov/2015 22:47:52] ERROR [abrigo.views:115] AbrigoLocation object
+[22/Nov/2015 22:47:55] ERROR [abrigo.views:110] SC
+[22/Nov/2015 22:47:55] ERROR [abrigo.views:112] [(14L,)]
+[22/Nov/2015 22:47:55] ERROR [abrigo.views:115] AbrigoLocation object
+[22/Nov/2015 22:48:00] ERROR [abrigo.views:110] SP
+[22/Nov/2015 22:48:00] ERROR [abrigo.views:112] [(15L,), (16L,)]
+[22/Nov/2015 22:48:00] ERROR [abrigo.views:115] AbrigoLocation object
+[22/Nov/2015 22:48:00] ERROR [abrigo.views:115] AbrigoLocation object
+[22/Nov/2015 22:48:26] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:48:26] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:48:26] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:50:16] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:50:16] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:50:16] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:50:40] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:50:40] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:50:40] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:50:52] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:50:52] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:50:52] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:51:06] ERROR [abrigo.views:110] SP
+[22/Nov/2015 22:51:06] ERROR [abrigo.views:112] [(15L,), (16L,)]
+[22/Nov/2015 22:51:06] ERROR [abrigo.views:115] AbrigoLocation object
+[22/Nov/2015 22:51:06] ERROR [abrigo.views:115] AbrigoLocation object
+[22/Nov/2015 22:51:23] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:51:23] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:51:23] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:51:50] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:51:50] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:51:50] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:52:34] ERROR [abrigo.views:110] SC
+[22/Nov/2015 22:52:34] ERROR [abrigo.views:112] [(14L,)]
+[22/Nov/2015 22:52:34] ERROR [abrigo.views:115] AbrigoLocation object
+[22/Nov/2015 22:53:16] ERROR [abrigo.views:110] SC
+[22/Nov/2015 22:53:16] ERROR [abrigo.views:112] [(14L,)]
+[22/Nov/2015 22:53:16] ERROR [abrigo.views:115] AbrigoLocation object
+[22/Nov/2015 22:53:49] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:53:49] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:53:49] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:53:54] ERROR [abrigo.views:110] SC
+[22/Nov/2015 22:53:54] ERROR [abrigo.views:112] [(14L,)]
+[22/Nov/2015 22:53:54] ERROR [abrigo.views:115] AbrigoLocation object
+[22/Nov/2015 22:54:09] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:54:09] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:54:09] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:54:20] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:54:20] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:54:20] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:54:21] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:54:21] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:54:21] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:55:46] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:55:46] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:55:46] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:55:46] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:55:46] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:55:46] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:55:50] ERROR [abrigo.views:110] SC
+[22/Nov/2015 22:55:50] ERROR [abrigo.views:112] [(14L,)]
+[22/Nov/2015 22:55:50] ERROR [abrigo.views:115] AbrigoLocation object
+[22/Nov/2015 22:56:02] ERROR [abrigo.views:110] SC
+[22/Nov/2015 22:56:02] ERROR [abrigo.views:112] [(14L,)]
+[22/Nov/2015 22:56:02] ERROR [abrigo.views:115] AbrigoLocation object
+[22/Nov/2015 22:56:03] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:56:03] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:56:03] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:56:03] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:56:03] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:56:03] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:56:39] ERROR [abrigo.views:110] SP
+[22/Nov/2015 22:56:39] ERROR [abrigo.views:112] [(15L,), (16L,)]
+[22/Nov/2015 22:56:40] ERROR [abrigo.views:115] AbrigoLocation object
+[22/Nov/2015 22:56:40] ERROR [abrigo.views:115] AbrigoLocation object
+[22/Nov/2015 22:57:08] ERROR [abrigo.views:110] SP
+[22/Nov/2015 22:57:08] ERROR [abrigo.views:112] [(15L,), (16L,)]
+[22/Nov/2015 22:57:08] ERROR [abrigo.views:115] AbrigoLocation object
+[22/Nov/2015 22:57:08] ERROR [abrigo.views:115] AbrigoLocation object
+[22/Nov/2015 22:57:09] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:57:09] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:57:09] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:57:12] ERROR [abrigo.views:110] SP
+[22/Nov/2015 22:57:12] ERROR [abrigo.views:112] [(15L,), (16L,)]
+[22/Nov/2015 22:57:12] ERROR [abrigo.views:115] AbrigoLocation object
+[22/Nov/2015 22:57:12] ERROR [abrigo.views:115] AbrigoLocation object
+[22/Nov/2015 22:57:14] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:57:14] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:57:14] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:57:21] ERROR [abrigo.views:110] SP
+[22/Nov/2015 22:57:21] ERROR [abrigo.views:112] [(15L,), (16L,)]
+[22/Nov/2015 22:57:21] ERROR [abrigo.views:115] AbrigoLocation object
+[22/Nov/2015 22:57:21] ERROR [abrigo.views:115] AbrigoLocation object
+[22/Nov/2015 22:57:22] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:57:22] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:57:22] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:57:30] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:57:30] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:57:30] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:57:45] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:57:45] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:57:45] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:57:46] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:57:46] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:57:46] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:57:52] ERROR [abrigo.views:110] SC
+[22/Nov/2015 22:57:52] ERROR [abrigo.views:112] [(14L,)]
+[22/Nov/2015 22:57:52] ERROR [abrigo.views:115] AbrigoLocation object
+[22/Nov/2015 22:58:18] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:58:18] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:58:18] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:58:20] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:58:20] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:58:20] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:58:34] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:58:34] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:58:34] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:58:34] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:58:34] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:58:34] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:59:12] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:59:12] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:59:12] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:59:36] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:59:36] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:59:36] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:59:37] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:59:37] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 22:59:37] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:02:34] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:02:34] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:02:34] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:02:40] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:02:40] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:02:40] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:03:56] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:03:56] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:03:56] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:04:04] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:04:04] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:04:04] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:04:21] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:04:21] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:04:21] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:04:27] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:04:27] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:04:27] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:04:37] ERROR [abrigo.views:110] SC
+[22/Nov/2015 23:04:37] ERROR [abrigo.views:112] [(14L,)]
+[22/Nov/2015 23:04:37] ERROR [abrigo.views:115] AbrigoLocation object
+[22/Nov/2015 23:26:36] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:26:36] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:26:36] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:26:51] ERROR [abrigo.views:110] SC
+[22/Nov/2015 23:26:51] ERROR [abrigo.views:112] [(14L,)]
+[22/Nov/2015 23:26:51] ERROR [abrigo.views:115] AbrigoLocation object
+[22/Nov/2015 23:34:05] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:34:05] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:34:05] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:35:21] ERROR [abrigo.views:110] SC
+[22/Nov/2015 23:35:21] ERROR [abrigo.views:112] [(14L,)]
+[22/Nov/2015 23:35:21] ERROR [abrigo.views:115] AbrigoLocation object
+[22/Nov/2015 23:37:03] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:37:03] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:37:03] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:37:29] ERROR [abrigo.views:110] SC
+[22/Nov/2015 23:37:29] ERROR [abrigo.views:112] [(14L,)]
+[22/Nov/2015 23:37:29] ERROR [abrigo.views:115] AbrigoLocation object
+[22/Nov/2015 23:39:34] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:39:34] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:39:34] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:41:15] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:41:15] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:41:15] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:41:26] ERROR [abrigo.views:110] SP
+[22/Nov/2015 23:41:26] ERROR [abrigo.views:112] [(15L,), (16L,)]
+[22/Nov/2015 23:41:26] ERROR [abrigo.views:115] AbrigoLocation object
+[22/Nov/2015 23:41:26] ERROR [abrigo.views:115] AbrigoLocation object
+[22/Nov/2015 23:41:43] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:41:43] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:41:43] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:41:55] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:41:55] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:41:55] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:42:04] ERROR [abrigo.views:110] SC
+[22/Nov/2015 23:42:04] ERROR [abrigo.views:112] [(14L,)]
+[22/Nov/2015 23:42:04] ERROR [abrigo.views:115] AbrigoLocation object
+[22/Nov/2015 23:43:22] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:43:22] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:43:22] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:46:21] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:46:21] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:46:21] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:46:33] ERROR [abrigo.views:110] SC
+[22/Nov/2015 23:46:33] ERROR [abrigo.views:112] [(14L,)]
+[22/Nov/2015 23:46:33] ERROR [abrigo.views:115] AbrigoLocation object
+[22/Nov/2015 23:47:39] ERROR [abrigo.views:110] SP
+[22/Nov/2015 23:47:39] ERROR [abrigo.views:112] [(15L,), (16L,)]
+[22/Nov/2015 23:47:39] ERROR [abrigo.views:115] AbrigoLocation object
+[22/Nov/2015 23:47:39] ERROR [abrigo.views:115] AbrigoLocation object
+[22/Nov/2015 23:47:58] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:47:58] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:47:58] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:48:06] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:48:06] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:48:06] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:50:02] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:50:02] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:50:02] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:50:14] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:50:14] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:50:14] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:51:33] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:51:33] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:51:33] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:53:38] ERROR [abrigo.views:110] SC
+[22/Nov/2015 23:53:38] ERROR [abrigo.views:112] [(14L,)]
+[22/Nov/2015 23:53:38] ERROR [abrigo.views:115] AbrigoLocation object
+[22/Nov/2015 23:54:03] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:54:03] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:54:03] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:55:32] ERROR [abrigo.views:110] SC
+[22/Nov/2015 23:55:32] ERROR [abrigo.views:112] [(14L,)]
+[22/Nov/2015 23:55:32] ERROR [abrigo.views:115] AbrigoLocation object
+[22/Nov/2015 23:56:29] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:56:29] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:56:29] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:56:58] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:56:58] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:56:58] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:57:21] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:57:21] ERROR [abrigo.views:101] AbrigoLocation object
+[22/Nov/2015 23:57:21] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:00:46] ERROR [abrigo.views:110] SC
+[23/Nov/2015 00:00:46] ERROR [abrigo.views:112] [(14L,)]
+[23/Nov/2015 00:00:46] ERROR [abrigo.views:115] AbrigoLocation object
+[23/Nov/2015 00:01:44] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:01:44] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:01:44] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:01:56] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:01:56] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:01:56] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:02:26] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:02:26] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:02:26] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:02:45] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:02:45] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:02:45] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:04:31] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:04:31] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:04:31] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:05:27] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:05:27] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:05:27] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:14:45] ERROR [abrigo.views:110] SP
+[23/Nov/2015 00:14:45] ERROR [abrigo.views:112] [(15L,), (16L,)]
+[23/Nov/2015 00:14:45] ERROR [abrigo.views:115] AbrigoLocation object
+[23/Nov/2015 00:14:45] ERROR [abrigo.views:115] AbrigoLocation object
+[23/Nov/2015 00:14:58] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:14:58] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:14:58] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:17:06] ERROR [abrigo.views:110] SC
+[23/Nov/2015 00:17:06] ERROR [abrigo.views:112] [(14L,)]
+[23/Nov/2015 00:17:06] ERROR [abrigo.views:115] AbrigoLocation object
+[23/Nov/2015 00:17:14] ERROR [abrigo.views:110] SP
+[23/Nov/2015 00:17:14] ERROR [abrigo.views:112] [(15L,), (16L,)]
+[23/Nov/2015 00:17:14] ERROR [abrigo.views:115] AbrigoLocation object
+[23/Nov/2015 00:17:14] ERROR [abrigo.views:115] AbrigoLocation object
+[23/Nov/2015 00:17:23] ERROR [abrigo.views:110] SC
+[23/Nov/2015 00:17:23] ERROR [abrigo.views:112] [(14L,)]
+[23/Nov/2015 00:17:23] ERROR [abrigo.views:115] AbrigoLocation object
+[23/Nov/2015 00:17:34] ERROR [abrigo.views:110] SC
+[23/Nov/2015 00:17:34] ERROR [abrigo.views:112] [(14L,)]
+[23/Nov/2015 00:17:34] ERROR [abrigo.views:115] AbrigoLocation object
+[23/Nov/2015 00:17:58] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:17:58] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:17:58] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:18:03] ERROR [abrigo.views:110] SC
+[23/Nov/2015 00:18:03] ERROR [abrigo.views:112] [(14L,)]
+[23/Nov/2015 00:18:03] ERROR [abrigo.views:115] AbrigoLocation object
+[23/Nov/2015 00:18:14] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:18:14] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:18:14] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:18:19] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:18:19] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:18:19] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:18:27] ERROR [abrigo.views:110] SC
+[23/Nov/2015 00:18:27] ERROR [abrigo.views:112] [(14L,)]
+[23/Nov/2015 00:18:27] ERROR [abrigo.views:115] AbrigoLocation object
+[23/Nov/2015 00:18:57] ERROR [abrigo.views:110] SC
+[23/Nov/2015 00:18:57] ERROR [abrigo.views:112] [(14L,)]
+[23/Nov/2015 00:18:57] ERROR [abrigo.views:115] AbrigoLocation object
+[23/Nov/2015 00:19:15] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:19:15] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:19:15] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:19:41] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:19:41] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:19:41] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:19:52] ERROR [abrigo.views:110] SC
+[23/Nov/2015 00:19:52] ERROR [abrigo.views:112] [(14L,)]
+[23/Nov/2015 00:19:52] ERROR [abrigo.views:115] AbrigoLocation object
+[23/Nov/2015 00:20:25] ERROR [abrigo.views:110] SP
+[23/Nov/2015 00:20:25] ERROR [abrigo.views:112] [(15L,), (16L,)]
+[23/Nov/2015 00:20:25] ERROR [abrigo.views:115] AbrigoLocation object
+[23/Nov/2015 00:20:25] ERROR [abrigo.views:115] AbrigoLocation object
+[23/Nov/2015 00:20:50] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:20:50] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:20:50] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:20:51] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:20:51] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:20:51] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:21:32] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:21:32] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:21:32] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:22:09] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:22:09] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:22:09] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:22:09] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:22:09] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:22:09] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:22:51] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:22:51] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:22:51] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:22:52] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:22:52] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:22:52] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:23:05] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:23:05] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:23:05] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:23:36] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:23:36] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:23:36] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:23:49] ERROR [abrigo.views:110] SC
+[23/Nov/2015 00:23:49] ERROR [abrigo.views:112] [(14L,)]
+[23/Nov/2015 00:23:49] ERROR [abrigo.views:115] AbrigoLocation object
+[23/Nov/2015 00:23:54] ERROR [abrigo.views:110] SP
+[23/Nov/2015 00:23:54] ERROR [abrigo.views:112] [(15L,), (16L,)]
+[23/Nov/2015 00:23:54] ERROR [abrigo.views:115] AbrigoLocation object
+[23/Nov/2015 00:23:54] ERROR [abrigo.views:115] AbrigoLocation object
+[23/Nov/2015 00:24:15] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:24:15] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:24:15] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:24:18] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:24:18] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:24:18] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:24:22] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:24:22] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:24:22] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:24:30] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:24:30] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:24:30] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:24:49] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:24:49] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:24:49] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:25:23] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:25:23] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:25:23] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:25:24] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:25:24] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:25:24] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:25:33] ERROR [abrigo.views:110] SC
+[23/Nov/2015 00:25:33] ERROR [abrigo.views:112] [(14L,)]
+[23/Nov/2015 00:25:33] ERROR [abrigo.views:115] AbrigoLocation object
+[23/Nov/2015 00:25:41] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:25:41] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:25:41] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:25:41] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:25:41] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:25:41] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:25:49] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:25:49] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:25:49] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:25:49] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:25:50] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:25:50] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:26:04] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:26:04] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:26:04] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:26:13] ERROR [abrigo.views:110] SC
+[23/Nov/2015 00:26:13] ERROR [abrigo.views:112] [(14L,)]
+[23/Nov/2015 00:26:13] ERROR [abrigo.views:115] AbrigoLocation object
+[23/Nov/2015 00:26:33] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:26:33] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:26:33] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:26:36] ERROR [abrigo.views:110] SC
+[23/Nov/2015 00:26:36] ERROR [abrigo.views:112] [(14L,)]
+[23/Nov/2015 00:26:36] ERROR [abrigo.views:115] AbrigoLocation object
+[23/Nov/2015 00:27:16] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:27:16] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:27:16] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:27:40] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:27:40] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:27:40] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:27:45] ERROR [abrigo.views:110] SC
+[23/Nov/2015 00:27:45] ERROR [abrigo.views:112] [(14L,)]
+[23/Nov/2015 00:27:45] ERROR [abrigo.views:115] AbrigoLocation object
+[23/Nov/2015 00:30:56] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:30:56] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:30:56] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:31:14] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:31:14] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:31:14] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:31:29] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:31:29] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:31:29] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:31:34] ERROR [abrigo.views:110] SC
+[23/Nov/2015 00:31:34] ERROR [abrigo.views:112] [(14L,)]
+[23/Nov/2015 00:31:34] ERROR [abrigo.views:115] AbrigoLocation object
+[23/Nov/2015 00:34:00] ERROR [abrigo.views:110] SP
+[23/Nov/2015 00:34:00] ERROR [abrigo.views:112] [(15L,), (16L,)]
+[23/Nov/2015 00:34:00] ERROR [abrigo.views:115] AbrigoLocation object
+[23/Nov/2015 00:34:00] ERROR [abrigo.views:115] AbrigoLocation object
+[23/Nov/2015 00:34:04] ERROR [abrigo.views:110] SC
+[23/Nov/2015 00:34:04] ERROR [abrigo.views:112] [(14L,)]
+[23/Nov/2015 00:34:04] ERROR [abrigo.views:115] AbrigoLocation object
+[23/Nov/2015 00:34:13] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:34:13] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:34:13] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:34:16] ERROR [abrigo.views:110] SC
+[23/Nov/2015 00:34:16] ERROR [abrigo.views:112] [(14L,)]
+[23/Nov/2015 00:34:16] ERROR [abrigo.views:115] AbrigoLocation object
+[23/Nov/2015 00:34:23] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:34:23] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:34:24] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:34:26] ERROR [abrigo.views:110] SC
+[23/Nov/2015 00:34:26] ERROR [abrigo.views:112] [(14L,)]
+[23/Nov/2015 00:34:26] ERROR [abrigo.views:115] AbrigoLocation object
+[23/Nov/2015 00:35:00] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:35:00] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:35:00] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:35:29] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:35:29] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:35:29] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:35:58] ERROR [abrigo.views:110] SP
+[23/Nov/2015 00:35:58] ERROR [abrigo.views:112] [(15L,), (16L,)]
+[23/Nov/2015 00:35:58] ERROR [abrigo.views:115] AbrigoLocation object
+[23/Nov/2015 00:35:58] ERROR [abrigo.views:115] AbrigoLocation object
+[23/Nov/2015 00:36:01] ERROR [abrigo.views:110] SP
+[23/Nov/2015 00:36:01] ERROR [abrigo.views:112] [(15L,), (16L,)]
+[23/Nov/2015 00:36:01] ERROR [abrigo.views:115] AbrigoLocation object
+[23/Nov/2015 00:36:01] ERROR [abrigo.views:115] AbrigoLocation object
+[23/Nov/2015 00:36:57] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:36:57] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:36:57] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:38:26] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:38:26] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:38:26] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:40:03] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:40:04] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:40:04] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:40:18] ERROR [abrigo.views:110] SC
+[23/Nov/2015 00:40:18] ERROR [abrigo.views:112] [(14L,)]
+[23/Nov/2015 00:40:18] ERROR [abrigo.views:115] AbrigoLocation object
+[23/Nov/2015 00:53:43] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:53:43] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:53:43] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:54:01] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:54:01] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:54:01] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:54:58] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:54:58] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:54:58] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:55:01] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:55:01] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:55:01] ERROR [abrigo.views:101] AbrigoLocation object
+[23/Nov/2015 00:55:18] ERROR [abrigo.views:110] SC
+[23/Nov/2015 00:55:18] ERROR [abrigo.views:112] [(14L,)]
+[23/Nov/2015 00:55:18] ERROR [abrigo.views:115] AbrigoLocation object
+[23/Nov/2015 00:55:26] ERROR [abrigo.views:110] SP
+[23/Nov/2015 00:55:26] ERROR [abrigo.views:112] [(15L,), (16L,)]
+[23/Nov/2015 00:55:26] ERROR [abrigo.views:115] AbrigoLocation object
+[23/Nov/2015 00:55:26] ERROR [abrigo.views:115] AbrigoLocation object
+[23/Nov/2015 00:58:58] ERROR [abrigo.views:110] SC
+[23/Nov/2015 00:58:58] ERROR [abrigo.views:112] [(14L,)]
+[23/Nov/2015 00:58:58] ERROR [abrigo.views:115] AbrigoLocation object
+[23/Nov/2015 00:59:10] ERROR [abrigo.views:110] SP
+[23/Nov/2015 00:59:10] ERROR [abrigo.views:112] [(15L,), (16L,)]
+[23/Nov/2015 00:59:10] ERROR [abrigo.views:115] AbrigoLocation object
+[23/Nov/2015 00:59:10] ERROR [abrigo.views:115] AbrigoLocation object
+[23/Nov/2015 01:37:02] ERROR [django.request:226] Internal Server Error: /nearbyPoints/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 102, in nearbyPoints
+    for shelter in AbrigoLocation.objects.raw("SELECT * FROM abrigo_abrigolocation WHERE (ABS(bound_northeast_lng - bound_southwest_lng) < 20) AND (ABS(bound_northeast_lat - bound_southwest_lat) < 20)"):#filter(location__pk__in=locations_pk"):
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 1395, in __iter__
+    query = iter(self.query)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/utils.py", line 99, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/site-packages/MySQL_python-1.2.4-py2.7-linux-i686.egg/MySQLdb/cursors.py", line 201, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/site-packages/MySQL_python-1.2.4-py2.7-linux-i686.egg/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+OperationalError: (1054, "Unknown column 'bound_northeast_lng' in 'where clause'")
+[23/Nov/2015 01:37:18] ERROR [django.request:226] Internal Server Error: /nearbyPoints/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 102, in nearbyPoints
+    for shelter in AbrigoLocation.objects.raw("SELECT * FROM abrigo_abrigolocation WHERE (ABS(bound_northeast_lng - bound_southwest_lng) < 20) AND (ABS(bound_northeast_lat - bound_southwest_lat) < 20)"):#filter(location__pk__in=locations_pk"):
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 1395, in __iter__
+    query = iter(self.query)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/utils.py", line 99, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/site-packages/MySQL_python-1.2.4-py2.7-linux-i686.egg/MySQLdb/cursors.py", line 201, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/site-packages/MySQL_python-1.2.4-py2.7-linux-i686.egg/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+OperationalError: (1054, "Unknown column 'bound_northeast_lng' in 'where clause'")
+[23/Nov/2015 01:38:11] ERROR [django.request:226] Internal Server Error: /nearbyPoints/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 102, in nearbyPoints
+    for shelter in AbrigoLocation.objects.raw("SELECT * FROM abrigo_abrigolocation WHERE (ABS(abrigo.bound_northeast_lng - abrigo.bound_southwest_lng) < 20) AND (ABS(abrigo.bound_northeast_lat - abrigo.bound_southwest_lat) < 20)"):#filter(location__pk__in=locations_pk"):
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 1395, in __iter__
+    query = iter(self.query)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/utils.py", line 99, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/site-packages/MySQL_python-1.2.4-py2.7-linux-i686.egg/MySQLdb/cursors.py", line 201, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/site-packages/MySQL_python-1.2.4-py2.7-linux-i686.egg/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+OperationalError: (1054, "Unknown column 'bound_northeast_lng' in 'where clause'")
+[23/Nov/2015 01:38:13] ERROR [django.request:226] Internal Server Error: /nearbyPoints/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 102, in nearbyPoints
+    for shelter in AbrigoLocation.objects.raw("SELECT * FROM abrigo_abrigolocation WHERE (ABS(abrigo.bound_northeast_lng - abrigo.bound_southwest_lng) < 20) AND (ABS(abrigo.bound_northeast_lat - abrigo.bound_southwest_lat) < 20)"):#filter(location__pk__in=locations_pk"):
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 1395, in __iter__
+    query = iter(self.query)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/utils.py", line 99, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/site-packages/MySQL_python-1.2.4-py2.7-linux-i686.egg/MySQLdb/cursors.py", line 201, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/site-packages/MySQL_python-1.2.4-py2.7-linux-i686.egg/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+OperationalError: (1054, "Unknown column 'bound_northeast_lng' in 'where clause'")
+[23/Nov/2015 01:38:15] ERROR [django.request:226] Internal Server Error: /nearbyPoints/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 102, in nearbyPoints
+    for shelter in AbrigoLocation.objects.raw("SELECT * FROM abrigo_abrigolocation WHERE (ABS(abrigo.bound_northeast_lng - abrigo.bound_southwest_lng) < 20) AND (ABS(abrigo.bound_northeast_lat - abrigo.bound_southwest_lat) < 20)"):#filter(location__pk__in=locations_pk"):
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 1395, in __iter__
+    query = iter(self.query)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/utils.py", line 99, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/site-packages/MySQL_python-1.2.4-py2.7-linux-i686.egg/MySQLdb/cursors.py", line 201, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/site-packages/MySQL_python-1.2.4-py2.7-linux-i686.egg/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+OperationalError: (1054, "Unknown column 'bound_northeast_lng' in 'where clause'")
+[23/Nov/2015 01:38:17] ERROR [django.request:226] Internal Server Error: /nearbyPoints/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 102, in nearbyPoints
+    for shelter in AbrigoLocation.objects.raw("SELECT * FROM abrigo_abrigolocation WHERE (ABS(abrigo.bound_northeast_lng - abrigo.bound_southwest_lng) < 20) AND (ABS(abrigo.bound_northeast_lat - abrigo.bound_southwest_lat) < 20)"):#filter(location__pk__in=locations_pk"):
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 1395, in __iter__
+    query = iter(self.query)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/utils.py", line 99, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/site-packages/MySQL_python-1.2.4-py2.7-linux-i686.egg/MySQLdb/cursors.py", line 201, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/site-packages/MySQL_python-1.2.4-py2.7-linux-i686.egg/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+OperationalError: (1054, "Unknown column 'bound_northeast_lng' in 'where clause'")
+[23/Nov/2015 01:38:19] ERROR [django.request:226] Internal Server Error: /nearbyPoints/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 102, in nearbyPoints
+    for shelter in AbrigoLocation.objects.raw("SELECT * FROM abrigo_abrigolocation WHERE (ABS(abrigo.bound_northeast_lng - abrigo.bound_southwest_lng) < 20) AND (ABS(abrigo.bound_northeast_lat - abrigo.bound_southwest_lat) < 20)"):#filter(location__pk__in=locations_pk"):
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 1395, in __iter__
+    query = iter(self.query)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/utils.py", line 99, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/site-packages/MySQL_python-1.2.4-py2.7-linux-i686.egg/MySQLdb/cursors.py", line 201, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/site-packages/MySQL_python-1.2.4-py2.7-linux-i686.egg/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+OperationalError: (1054, "Unknown column 'bound_northeast_lng' in 'where clause'")
+[23/Nov/2015 01:38:53] ERROR [django.request:226] Internal Server Error: /nearbyPoints/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 102, in nearbyPoints
+    for shelter in AbrigoLocation.objects.raw("SELECT * FROM abrigo_abrigolocation WHERE (ABS(abrigo.bound_northeast_lng - abrigo.bound_southwest_lng) < 20) AND (ABS(abrigo.bound_northeast_lat - abrigo.bound_southwest_lat) < 20)"):#filter(location__pk__in=locations_pk"):
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 1395, in __iter__
+    query = iter(self.query)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/utils.py", line 99, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/site-packages/MySQL_python-1.2.4-py2.7-linux-i686.egg/MySQLdb/cursors.py", line 201, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/site-packages/MySQL_python-1.2.4-py2.7-linux-i686.egg/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+OperationalError: (1054, "Unknown column 'abrigo.bound_northeast_lng' in 'where clause'")
+[23/Nov/2015 01:41:34] ERROR [django.request:226] Internal Server Error: /nearbyPoints/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 102, in nearbyPoints
+    for shelter in AbrigoLocation.objects.raw("SELECT * FROM abrigo_abrigolocation WHERE abrigo_id IN (SELECT id FROM abrigo_abrigo WHERE (ABS(bound_northeast_lng - bound_southwest_lng) < 20) AND (ABS(bound_northeast_lat - bound_southwest_lat) < 20))"):#filter(location__pk__in=locations_pk"):
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 1395, in __iter__
+    query = iter(self.query)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/utils.py", line 99, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/site-packages/MySQL_python-1.2.4-py2.7-linux-i686.egg/MySQLdb/cursors.py", line 201, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/site-packages/MySQL_python-1.2.4-py2.7-linux-i686.egg/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+OperationalError: (1054, "Unknown column 'bound_northeast_lng' in 'where clause'")
+[23/Nov/2015 01:59:10] ERROR [django.request:226] Internal Server Error: /nearbyPoints/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 102, in nearbyPoints
+    for shelter in AbrigoLocation.objects.raw("SELECT * FROM abrigo_abrigolocation WHERE abrigo_id IN (SELECT id FROM abrigo WHERE id IN (SELECT abrigo_id FROM abrigo_abrigolocation WHERE location_ID IN (SELECT id FROM abrigo_location WHERE (ABS(bound_northeast_lng - bound_southwest_lng) < 20) AND (ABS(bound_northeast_lat - bound_southwest_lat) < 20))))"):
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 1395, in __iter__
+    query = iter(self.query)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/utils.py", line 99, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/site-packages/MySQL_python-1.2.4-py2.7-linux-i686.egg/MySQLdb/cursors.py", line 201, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/site-packages/MySQL_python-1.2.4-py2.7-linux-i686.egg/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+ProgrammingError: (1146, "Table 'sos.abrigo' doesn't exist")
+[23/Nov/2015 01:59:24] ERROR [django.request:226] Internal Server Error: /nearbyPoints/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 102, in nearbyPoints
+    for shelter in AbrigoLocation.objects.raw("SELECT * FROM abrigo_abrigolocation WHERE abrigo_id IN (SELECT id FROM abrigo_abrigo WHERE id IN (SELECT abrigo_id FROM abrigo_abrigolocation WHERE location_ID IN (SELECT id FROM abrigo_location WHERE (ABS(bound_northeast_lng - bound_southwest_lng) < 20) AND (ABS(bound_northeast_lat - bound_southwest_lat) < 20))))"):
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 1395, in __iter__
+    query = iter(self.query)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/utils.py", line 99, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/site-packages/MySQL_python-1.2.4-py2.7-linux-i686.egg/MySQLdb/cursors.py", line 201, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/site-packages/MySQL_python-1.2.4-py2.7-linux-i686.egg/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+OperationalError: (1054, "Unknown column 'bound_northeast_lng' in 'where clause'")
+[23/Nov/2015 01:59:27] ERROR [django.request:226] Internal Server Error: /nearbyPoints/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 102, in nearbyPoints
+    for shelter in AbrigoLocation.objects.raw("SELECT * FROM abrigo_abrigolocation WHERE abrigo_id IN (SELECT id FROM abrigo_abrigo WHERE id IN (SELECT abrigo_id FROM abrigo_abrigolocation WHERE location_ID IN (SELECT id FROM abrigo_location WHERE (ABS(bound_northeast_lng - bound_southwest_lng) < 20) AND (ABS(bound_northeast_lat - bound_southwest_lat) < 20))))"):
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 1395, in __iter__
+    query = iter(self.query)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/utils.py", line 99, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/site-packages/MySQL_python-1.2.4-py2.7-linux-i686.egg/MySQLdb/cursors.py", line 201, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/site-packages/MySQL_python-1.2.4-py2.7-linux-i686.egg/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+OperationalError: (1054, "Unknown column 'bound_northeast_lng' in 'where clause'")
+[23/Nov/2015 01:59:29] ERROR [django.request:226] Internal Server Error: /nearbyPoints/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 102, in nearbyPoints
+    for shelter in AbrigoLocation.objects.raw("SELECT * FROM abrigo_abrigolocation WHERE abrigo_id IN (SELECT id FROM abrigo_abrigo WHERE id IN (SELECT abrigo_id FROM abrigo_abrigolocation WHERE location_ID IN (SELECT id FROM abrigo_location WHERE (ABS(bound_northeast_lng - bound_southwest_lng) < 20) AND (ABS(bound_northeast_lat - bound_southwest_lat) < 20))))"):
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 1395, in __iter__
+    query = iter(self.query)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/utils.py", line 99, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/site-packages/MySQL_python-1.2.4-py2.7-linux-i686.egg/MySQLdb/cursors.py", line 201, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/site-packages/MySQL_python-1.2.4-py2.7-linux-i686.egg/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+OperationalError: (1054, "Unknown column 'bound_northeast_lng' in 'where clause'")
+[23/Nov/2015 01:59:32] ERROR [django.request:226] Internal Server Error: /nearbyPoints/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 102, in nearbyPoints
+    for shelter in AbrigoLocation.objects.raw("SELECT * FROM abrigo_abrigolocation WHERE abrigo_id IN (SELECT id FROM abrigo_abrigo WHERE id IN (SELECT abrigo_id FROM abrigo_abrigolocation WHERE location_ID IN (SELECT id FROM abrigo_location WHERE (ABS(bound_northeast_lng - bound_southwest_lng) < 20) AND (ABS(bound_northeast_lat - bound_southwest_lat) < 20))))"):
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 1395, in __iter__
+    query = iter(self.query)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/utils.py", line 99, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/site-packages/MySQL_python-1.2.4-py2.7-linux-i686.egg/MySQLdb/cursors.py", line 201, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/site-packages/MySQL_python-1.2.4-py2.7-linux-i686.egg/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+ProgrammingError: (1146, "Table 'sos.abrigo' doesn't exist")
+[23/Nov/2015 01:59:33] ERROR [django.request:226] Internal Server Error: /nearbyPoints/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 102, in nearbyPoints
+    for shelter in AbrigoLocation.objects.raw("SELECT * FROM abrigo_abrigolocation WHERE abrigo_id IN (SELECT id FROM abrigo_abrigo WHERE id IN (SELECT abrigo_id FROM abrigo_abrigolocation WHERE location_ID IN (SELECT id FROM abrigo_location WHERE (ABS(bound_northeast_lng - bound_southwest_lng) < 20) AND (ABS(bound_northeast_lat - bound_southwest_lat) < 20))))"):
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 1395, in __iter__
+    query = iter(self.query)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/utils.py", line 99, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/site-packages/MySQL_python-1.2.4-py2.7-linux-i686.egg/MySQLdb/cursors.py", line 201, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/site-packages/MySQL_python-1.2.4-py2.7-linux-i686.egg/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+OperationalError: (1054, "Unknown column 'bound_northeast_lng' in 'where clause'")
+[23/Nov/2015 01:59:35] ERROR [django.request:226] Internal Server Error: /nearbyPoints/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 102, in nearbyPoints
+    for shelter in AbrigoLocation.objects.raw("SELECT * FROM abrigo_abrigolocation WHERE abrigo_id IN (SELECT id FROM abrigo_abrigo WHERE id IN (SELECT abrigo_id FROM abrigo_abrigolocation WHERE location_ID IN (SELECT id FROM abrigo_location WHERE (ABS(bound_northeast_lng - bound_southwest_lng) < 20) AND (ABS(bound_northeast_lat - bound_southwest_lat) < 20))))"):
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 1395, in __iter__
+    query = iter(self.query)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/utils.py", line 99, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/site-packages/MySQL_python-1.2.4-py2.7-linux-i686.egg/MySQLdb/cursors.py", line 201, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/site-packages/MySQL_python-1.2.4-py2.7-linux-i686.egg/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+ProgrammingError: (1146, "Table 'sos.abrigo' doesn't exist")
+[23/Nov/2015 01:59:45] ERROR [abrigo.views:103] AbrigoLocation object
+[23/Nov/2015 01:59:45] ERROR [abrigo.views:103] AbrigoLocation object
+[23/Nov/2015 01:59:45] ERROR [abrigo.views:103] AbrigoLocation object
+[23/Nov/2015 02:00:21] ERROR [abrigo.views:103] AbrigoLocation object
+[23/Nov/2015 02:00:21] ERROR [abrigo.views:103] AbrigoLocation object
+[23/Nov/2015 02:00:21] ERROR [abrigo.views:103] AbrigoLocation object
+[23/Nov/2015 02:08:52] ERROR [django.request:226] Internal Server Error: /nearbyPoints/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 102, in nearbyPoints
+    for shelter in AbrigoLocation.objects.raw("SELECT * FROM abrigo_abrigolocation WHERE abrigo_id IN (SELECT id FROM abrigo_abrigo WHERE id IN (SELECT abrigo_id FROM abrigo_abrigolocation WHERE location_ID IN (SELECT id FROM abrigo_location WHERE (ABS(bound_northeast_lng - bound_southwest_lng) < 20) AND (ABS(bound_northeast_lat - bound_southwest_lat) < 20))))"):
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 1395, in __iter__
+    query = iter(self.query)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/utils.py", line 99, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/site-packages/MySQL_python-1.2.4-py2.7-linux-i686.egg/MySQLdb/cursors.py", line 201, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/site-packages/MySQL_python-1.2.4-py2.7-linux-i686.egg/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+ProgrammingError: (1146, "Table 'sos.abrigo' doesn't exist")
+[23/Nov/2015 02:09:43] ERROR [django.request:226] Internal Server Error: /nearbyPoints/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 102, in nearbyPoints
+    for shelter in AbrigoLocation.objects.raw("SELECT * FROM abrigo_abrigolocation WHERE abrigo_id IN (SELECT id FROM abrigo_abrigo WHERE id IN (SELECT abrigo_id FROM abrigo_abrigolocation WHERE location_ID IN (SELECT id FROM abrigo_location WHERE (ABS(bound_northeast_lng - bound_southwest_lng) < 20) AND (ABS(bound_northeast_lat - bound_southwest_lat) < 20))))"):
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 1395, in __iter__
+    query = iter(self.query)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/utils.py", line 99, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/site-packages/MySQL_python-1.2.4-py2.7-linux-i686.egg/MySQLdb/cursors.py", line 201, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/site-packages/MySQL_python-1.2.4-py2.7-linux-i686.egg/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+ProgrammingError: (1146, "Table 'sos.abrigo' doesn't exist")
+[23/Nov/2015 02:11:14] ERROR [django.request:226] Internal Server Error: /nearbyPoints/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 102, in nearbyPoints
+    for shelter in AbrigoLocation.objects.raw("SELECT * FROM abrigo_abrigolocation WHERE abrigo_id IN (SELECT id FROM abrigo_abrigo WHERE id IN (SELECT abrigo_id FROM abrigo_abrigolocation WHERE location_ID IN (SELECT id FROM abrigo_location WHERE (ABS(bound_northeast_lng - bound_southwest_lng) < 20) AND (ABS(bound_northeast_lat - bound_southwest_lat) < 20))))"):
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 1395, in __iter__
+    query = iter(self.query)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/utils.py", line 99, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/site-packages/MySQL_python-1.2.4-py2.7-linux-i686.egg/MySQLdb/cursors.py", line 201, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/site-packages/MySQL_python-1.2.4-py2.7-linux-i686.egg/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+ProgrammingError: (1146, "Table 'sos.abrigo' doesn't exist")
+[23/Nov/2015 02:13:06] ERROR [django.request:226] Internal Server Error: /nearbyPoints/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 102, in nearbyPoints
+    for shelter in AbrigoLocation.objects.raw("SELECT * FROM abrigo_abrigolocation WHERE abrigo_id IN (SELECT id FROM abrigo_abrigo WHERE id IN (SELECT abrigo_id FROM abrigo_abrigolocation WHERE location_ID IN (SELECT id FROM abrigo_location WHERE (ABS(bound_northeast_lng - bound_southwest_lng) < 20) AND (ABS(bound_northeast_lat - bound_southwest_lat) < 20))))"):
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 1395, in __iter__
+    query = iter(self.query)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/utils.py", line 99, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/site-packages/MySQL_python-1.2.4-py2.7-linux-i686.egg/MySQLdb/cursors.py", line 201, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/site-packages/MySQL_python-1.2.4-py2.7-linux-i686.egg/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+ProgrammingError: (1146, "Table 'sos.abrigo' doesn't exist")
+[23/Nov/2015 02:13:35] ERROR [django.request:226] Internal Server Error: /nearbyPoints/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 102, in nearbyPoints
+    for shelter in AbrigoLocation.objects.raw("SELECT * FROM abrigo_abrigolocation WHERE abrigo_id IN (SELECT id FROM abrigo_abrigo WHERE id IN (SELECT abrigo_id FROM abrigo_abrigolocation WHERE location_ID IN (SELECT id FROM abrigo_location WHERE (ABS(bound_northeast_lng - bound_southwest_lng) < 20) AND (ABS(bound_northeast_lat - bound_southwest_lat) < 20))))"):
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 1395, in __iter__
+    query = iter(self.query)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/utils.py", line 99, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/site-packages/MySQL_python-1.2.4-py2.7-linux-i686.egg/MySQLdb/cursors.py", line 201, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/site-packages/MySQL_python-1.2.4-py2.7-linux-i686.egg/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+ProgrammingError: (1146, "Table 'sos.abrigo' doesn't exist")
+[23/Nov/2015 02:14:04] ERROR [abrigo.views:103] AbrigoLocation object
+[23/Nov/2015 02:14:04] ERROR [abrigo.views:103] AbrigoLocation object
+[23/Nov/2015 02:14:04] ERROR [abrigo.views:103] AbrigoLocation object
+[23/Nov/2015 02:14:19] ERROR [abrigo.views:103] AbrigoLocation object
+[23/Nov/2015 02:14:19] ERROR [abrigo.views:103] AbrigoLocation object
+[23/Nov/2015 02:14:19] ERROR [abrigo.views:103] AbrigoLocation object
+[23/Nov/2015 02:14:36] ERROR [django.request:226] Internal Server Error: /nearbyPoints/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/projetos/sos_server/abrigo/views.py", line 102, in nearbyPoints
+    for shelter in AbrigoLocation.objects.raw("SELECT * FROM abrigo_abrigolocation WHERE abrigo_id IN (SELECT id FROM abrigo_abrigo WHERE id IN (SELECT abrigo_id FROM abrigo_abrigolocation WHERE location_ID IN (SELECT id FROM abrigo_location WHERE (ABS(bound_northeast_lng - bound_southwest_lng) < 20) AND (ABS(bound_northeast_lat - bound_southwest_lat) < 20))))"):
+  File "/usr/lib/python2.7/site-packages/django/db/models/query.py", line 1395, in __iter__
+    query = iter(self.query)
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/lib/python2.7/site-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/utils.py", line 99, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/site-packages/MySQL_python-1.2.4-py2.7-linux-i686.egg/MySQLdb/cursors.py", line 201, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/site-packages/MySQL_python-1.2.4-py2.7-linux-i686.egg/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+ProgrammingError: (1146, "Table 'sos.abrigo' doesn't exist")
