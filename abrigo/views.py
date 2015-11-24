@@ -88,7 +88,7 @@ def nearbyPoints(request,lat,lng):
     
 
 
-    for shelter in AbrigoLocation.objects.all():#raw("SELECT * FROM abrigo_abrigolocation WHERE abrigo_id IN (SELECT id FROM abrigo_abrigo WHERE id IN (SELECT abrigo_id FROM abrigo_abrigolocation WHERE location_ID IN (SELECT id FROM abrigo_location WHERE (ABS(bound_northeast_lng - bound_southwest_lng) < 20) AND (ABS(bound_northeast_lat - bound_southwest_lat) < 20))))"):
+    for shelter in AbrigoLocation.objects.raw("SELECT * FROM abrigo_abrigolocation WHERE abrigo_id IN (SELECT id FROM abrigo_abrigo WHERE id IN (SELECT abrigo_id FROM abrigo_abrigolocation WHERE location_ID IN (SELECT id FROM abrigo_location WHERE (ABS(bound_northeast_lng - bound_southwest_lng) < 20) AND (ABS(bound_northeast_lat - bound_southwest_lat) < 20))))"):
         LOGGER.error(shelter)
         arr.append(get_address(shelter)) 
 
