@@ -81,7 +81,7 @@ def shelters(request):
 
     return HttpResponse(json.dumps(addresses_components).replace("'","\""))
 
-def nearbyPoints(request,placeId):
+def nearbyPoints(request,latlong):
     arr=[]
     #    locations_pk = AddressComponent.objects.filter(short_name=country_short_name).values_list('location__pk')
   #  LOGGER.error(locations_pk)
